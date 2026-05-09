@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "miners_delight"
+	group: "7199986A126B10F3"
+	icon: {
+		id: "minersdelight:copper_pot"
+	}
+	id: "2E939C32745C9FF7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

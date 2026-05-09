@@ -1,0 +1,7 @@
+{
+   "pack": {
+      "pack_format": 16,
+      "description": "Fixed by Moe-Mux-Hagi (to prove a point)",
+      "supported_formats": {"min_inclusive": 9, "max_inclusive": 99}
+   }
+}

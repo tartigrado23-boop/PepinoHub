@@ -1,0 +1,238 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quark"
+	group: ""
+	icon: {
+		id: "quark:trowel"
+	}
+	id: "16096F0D7FDD846D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2550A769A6FC5C43"
+			rewards: [{
+				id: "21851007583E9C29"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2A441B76A5A4B2F1"
+				item: { count: 1, id: "quark:trowel" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "7D39DEDCBB7ED8CF"
+			tasks: [{
+				id: "52889B1CE32AC3DF"
+				item: { count: 1, id: "quark:blaze_lantern" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "51E1F6F7C4921B34"
+			tasks: [{
+				id: "6833023AE88B6462"
+				item: { count: 1, id: "quark:bamboo_mat" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "33A43D84CB6B60AA"
+			tasks: [{
+				id: "6556C1319701BDFA"
+				item: { count: 1, id: "quark:crab_bucket" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			id: "284AA8B4300D7EFA"
+			rewards: [
+				{
+					id: "230AFDA45BCCCC81"
+					item: {
+						count: 1
+						id: "create_sa:slime_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "7AC86CB506A0C18E"
+					item: {
+						count: 1
+						id: "create_sa:slime_helmet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51B3DF8D567C755A"
+				item: { count: 1, id: "quark:slime_in_a_bucket" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "3014C95FC363935A"
+			tasks: [
+				{
+					id: "672F5E58A165E842"
+					item: { count: 1, id: "quark:glass_item_frame" }
+					type: "item"
+				}
+				{
+					id: "3CB5B24C05B53E09"
+					item: { count: 1, id: "quark:glass_item_frame" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "6C945A2E4D6D2044"
+			tasks: [{
+				id: "4297CCF777233146"
+				item: { count: 1, id: "quark:redstone_randomizer" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "34801409DFC148D1"
+			tasks: [{
+				id: "03CB755EAF8A0EDA"
+				item: { count: 1, id: "quark:grate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["33A43D84CB6B60AA"]
+			id: "770FB2DAE4DB749C"
+			tasks: [{
+				id: "1BE432A022EEEFE1"
+				item: { count: 1, id: "quark:cooked_crab_leg" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			id: "79A96F7D1060C0BE"
+			tasks: [{
+				id: "5017736DA9BE98D2"
+				item: { count: 1, id: "supplementaries:bamboo_spikes" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79A96F7D1060C0BE"]
+			id: "023365A238F1BEE6"
+			tasks: [
+				{
+					id: "3E8FE35E70AD2B62"
+					item: { count: 1, id: "supplementaries:bamboo_spikes_tipped" }
+					type: "item"
+				}
+				{
+					id: "7C5CB13EF9210D78"
+					item: { components: { "minecraft:potion_contents": { potion: "minecraft:slowness" } }, count: 1, id: "supplementaries:bamboo_spikes_tipped" }
+					type: "item"
+				}
+				{
+					id: "7A0690592258A9DF"
+					item: { components: { "minecraft:potion_contents": { potion: "minecraft:harming" } }, count: 1, id: "supplementaries:bamboo_spikes_tipped" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			id: "22145DB7C9AEF3ED"
+			tasks: [{
+				id: "513CE97C5498A00E"
+				item: { count: 1, id: "supplementaries:globe" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "1500E14D72CB2934"
+			tasks: [{
+				id: "0DA1FD726D611184"
+				item: { count: 1, id: "supplementaries:lunch_basket" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "62B8CCFC775CCC5F"
+			tasks: [{
+				id: "38EF2D627F1EB6B7"
+				item: { count: 1, id: "supplementaries:candle_holder" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "4BB27A5848F7D3B0"
+			tasks: [{
+				id: "3878E75BBBB8522C"
+				item: { count: 1, id: "supplementaries:hat_stand" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "10267DBB8185DA43"
+			tasks: [{
+				id: "0C3F618BE4216C31"
+				item: { count: 1, id: "supplementaries:quiver" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "0B6009D26AC1CDFB"
+			tasks: [{
+				id: "215AD9F17E3FC723"
+				item: { count: 1, id: "supplementaries:cage" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "7EE2049380F8AAA1"
+			tasks: [{
+				id: "18D4D1CE641D47B5"
+				item: { count: 1, id: "quark:framed_glass" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+	]
+}

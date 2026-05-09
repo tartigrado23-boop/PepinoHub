@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ends_delight"
+	group: "7199986A126B10F3"
+	icon: {
+		id: "ends_delight:end_stove"
+	}
+	id: "1523E2D96EFB96EC"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

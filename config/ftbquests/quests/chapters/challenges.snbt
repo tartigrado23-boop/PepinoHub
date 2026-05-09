@@ -1,0 +1,189 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "challenges"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "emi_loot:textures/gui/ominous.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "3622091A39D5142A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "19E5EAB3C91AD8EF"
+			tasks: [
+				{
+					count: 64L
+					id: "59C93632135C56AF"
+					item: { count: 1, id: "farmersdelight:carrot_crate" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "50F9EDDD063A0BEB"
+					item: { count: 1, id: "farmersdelight:potato_crate" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4F8B09B9EAFE420A"
+					item: { count: 1, id: "farmersdelight:beetroot_crate" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "425F96C1D59BF716"
+					item: { count: 1, id: "farmersdelight:cabbage_crate" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3C83889527DB46EF"
+					item: { count: 1, id: "farmersdelight:tomato_crate" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "294994139835D11A"
+					item: { count: 1, id: "farmersdelight:onion_crate" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "460B0C080E475A03"
+					item: { count: 1, id: "farmersdelight:rice_bale" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0157B71325C4D0BD"
+					item: { count: 1, id: "farmersdelight:rice_bag" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2C10DF7E150665BD"
+					item: { count: 1, id: "farmersdelight:straw_bale" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "508B963919919633"
+			tasks: [{
+				count: 64L
+				id: "4CCC365752E6F7A2"
+				item: { count: 1, id: "dungeonsdelight:poisonous_potato_crate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "2AEEE106C5F430C8"
+			tasks: [
+				{
+					count: 64L
+					id: "549683718AE10BDF"
+					item: { components: { "ftbquests:missing_item": "quark:apple_crate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "025ADA97B14CE438"
+					item: { count: 1, id: "farmersdelight:potato_crate" }
+					type: "item"
+				}
+				{
+					id: "6A054E602A73BE12"
+					item: { count: 1, id: "farmersdelight:carrot_crate" }
+					type: "item"
+				}
+				{
+					id: "2E2FC3641499DCB2"
+					item: { count: 1, id: "farmersdelight:beetroot_crate" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "4F10F3732C5A56B0"
+			tasks: [
+				{
+					id: "252101AEC4C58208"
+					item: { count: 1, id: "brewinandchewin:ice_crate" }
+					type: "item"
+				}
+				{
+					id: "6A61EBAE52A99B32"
+					item: { count: 1, id: "minersdelight:cave_carrot_crate" }
+					type: "item"
+				}
+				{
+					id: "2C101319528CD398"
+					item: { count: 1, id: "ends_delight:chorus_fruit_crate" }
+					type: "item"
+				}
+				{
+					id: "1343803F3FC90729"
+					item: { count: 1, id: "mynethersdelight:bullet_pepper_crate" }
+					type: "item"
+				}
+				{
+					id: "4E3A6E6BB71B5C65"
+					item: { count: 1, id: "culturaldelights:avocado_crate" }
+					type: "item"
+				}
+				{
+					id: "1839A05EC46185A4"
+					item: { count: 1, id: "culturaldelights:cucumber_crate" }
+					type: "item"
+				}
+				{
+					id: "71DF4DF470BE2699"
+					item: { count: 1, id: "culturaldelights:pickle_crate" }
+					type: "item"
+				}
+				{
+					id: "176ADF649DE9ACBD"
+					item: { count: 1, id: "culturaldelights:corn_cob_crate" }
+					type: "item"
+				}
+				{
+					id: "54427947810BB5A8"
+					item: { count: 1, id: "culturaldelights:eggplant_crate" }
+					type: "item"
+				}
+				{
+					id: "48F0B617A51AA181"
+					item: { count: 1, id: "culturaldelights:white_eggplant_crate" }
+					type: "item"
+				}
+				{
+					id: "2F6F93A0B07E5D7A"
+					item: { count: 1, id: "endersdelight:chorus_crate" }
+					type: "item"
+				}
+				{
+					id: "5E438EFB6A1008FB"
+					item: { count: 1, id: "pineapple_delight:pineapple_crate" }
+					type: "item"
+				}
+				{
+					id: "3F1C8C1C826FAF33"
+					item: { components: { "ftbquests:missing_item": "corn_delight:corn_crate" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+	]
+}

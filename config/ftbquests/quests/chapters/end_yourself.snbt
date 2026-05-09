@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_yourself"
+	group: "1F51619AAA9873BF"
+	id: "394748CECF31D432"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "0C8748CF84EA326C"
+		tasks: [{
+			dimension: "minecraft:the_end"
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity/end_portal.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "30FA8734E7C3E131"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

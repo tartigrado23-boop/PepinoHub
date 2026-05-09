@@ -1,0 +1,247 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_delights"
+	group: "7199986A126B10F3"
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "0D84EB258BD04A27"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:stove"
+			}
+			id: "7232BA0C8DB2F084"
+			size: 2.0d
+			tasks: [
+				{
+					id: "341413296A34EBE8"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+				{
+					id: "63A575307E0F799B"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "143D977AD4D4E8F8"
+					item: { count: 1, id: "farmersdelight:skillet" }
+					type: "item"
+				}
+				{
+					id: "06BAAE857A49B548"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					id: "2577D989AFD4C627"
+					item: { count: 1, id: "farmersdelight:iron_knife" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "3AF5F03BFBA053D2"
+			tasks: [
+				{
+					id: "16B6D3678EDB2637"
+					item: { count: 1, id: "farmersdelight:hanging_canvas_sign" }
+					type: "item"
+				}
+				{
+					id: "7611A3D744D9096A"
+					item: { count: 1, id: "farmersdelight:canvas_sign" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "638BA6DD00BF88B8"
+			tasks: [
+				{
+					id: "7028812F8E49EFAA"
+					item: { count: 1, id: "farmersdelight:milk_bottle" }
+					type: "item"
+				}
+				{
+					id: "24BA33E802F56296"
+					item: { count: 1, id: "farmersdelight:hot_cocoa" }
+					type: "item"
+				}
+				{
+					id: "4C0897115018749E"
+					item: { count: 1, id: "farmersdelight:apple_cider" }
+					type: "item"
+				}
+				{
+					id: "45C1B09555BCB16D"
+					item: { count: 1, id: "farmersdelight:melon_juice" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "39844BFDED8DA83C"
+			tasks: [
+				{
+					id: "35A584698EB99ADE"
+					item: { count: 1, id: "farmersdelight:tomato" }
+					type: "item"
+				}
+				{
+					id: "4350F1BCD31367AB"
+					item: { count: 1, id: "farmersdelight:onion" }
+					type: "item"
+				}
+				{
+					id: "47697D42E502C535"
+					item: { count: 1, id: "farmersdelight:rice" }
+					type: "item"
+				}
+				{
+					id: "473A1F93C82F83AF"
+					item: { count: 1, id: "farmersdelight:cabbage" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "6C44107B00B083AF"
+			tasks: [
+				{
+					id: "417BAF375A52843F"
+					item: { count: 1, id: "farmersdelight:wheat_dough" }
+					type: "item"
+				}
+				{
+					id: "6EECD18C22009DBC"
+					item: { count: 1, id: "farmersdelight:raw_pasta" }
+					type: "item"
+				}
+				{
+					id: "2C73EBE0D3EC43C3"
+					item: { count: 1, id: "farmersdelight:pumpkin_slice" }
+					type: "item"
+				}
+				{
+					id: "19A0ADDE3F765DB5"
+					item: { count: 1, id: "farmersdelight:cabbage_leaf" }
+					type: "item"
+				}
+				{
+					id: "53C5638C87B7B329"
+					item: { count: 1, id: "farmersdelight:minced_beef" }
+					type: "item"
+				}
+				{
+					id: "3666199335A8A1E7"
+					item: { count: 1, id: "farmersdelight:chicken_cuts" }
+					type: "item"
+				}
+				{
+					id: "3DC62288355BEBA7"
+					item: { count: 1, id: "farmersdelight:bacon" }
+					type: "item"
+				}
+				{
+					id: "194E5A850A9584AB"
+					item: { count: 1, id: "farmersdelight:cod_slice" }
+					type: "item"
+				}
+				{
+					id: "6CA0DD05A4970088"
+					item: { count: 1, id: "farmersdelight:salmon_slice" }
+					type: "item"
+				}
+				{
+					id: "2D3EBD67E05FE2AA"
+					item: { count: 1, id: "farmersdelight:mutton_chops" }
+					type: "item"
+				}
+				{
+					id: "20168EAC9D892831"
+					item: { count: 1, id: "farmersdelight:ham" }
+					type: "item"
+				}
+				{
+					id: "40D0839EFEF8E577"
+					item: { count: 1, id: "farmersdelight:pie_crust" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "42021D88E4A567AC"
+			tasks: [{
+				id: "726E8FC6567BA00C"
+				item: { count: 1, id: "farmersdelight:tomato_sauce" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "617E8CC449750F52"
+			tasks: [
+				{
+					count: 64L
+					id: "6EA771887C9A97A6"
+					item: { count: 1, id: "farmersdelight:organic_compost" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "180DAED51265AEAA"
+					item: { count: 1, id: "farmersdelight:rich_soil" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "377062CC063E5493"
+			tasks: [{
+				id: "74B6BA8760E998D7"
+				item: { count: 1, id: "farmersdelight:stuffed_pumpkin_block" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			id: "2A11E1767971964B"
+			tasks: [{
+				id: "24771AB6AD5112B8"
+				item: { count: 1, id: "farmersdelight:fish_stew" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			id: "2F6A7B71CC60577F"
+			tasks: [{
+				id: "0EC4E8769377599E"
+				item: { count: 1, id: "farmersdelight:pasta_with_meatballs" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+	]
+}

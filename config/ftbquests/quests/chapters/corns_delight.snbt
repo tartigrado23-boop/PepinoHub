@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "corns_delight"
+	group: "7199986A126B10F3"
+	icon: {
+		id: "culturaldelights:corn_cob"
+	}
+	id: "04A5EDE4741AE541"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

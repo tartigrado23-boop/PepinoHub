@@ -1,0 +1,353 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "better_archeology"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "betterarcheology:item/unidentified_artifact"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "234DAACD5ABA7006"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0780461242FCDE34"
+			tasks: [{
+				id: "7574FC9939425D7C"
+				item: { count: 1, id: "betterarcheology:archeology_table" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0780461242FCDE34"]
+			id: "723080358E788908"
+			tasks: [{
+				id: "6D99A0FF7D55A582"
+				item: { count: 1, id: "betterarcheology:artifact_shards" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "58A8CC4BF1C09EC5"
+			tasks: [{
+				id: "61442EB7A6B81A30"
+				item: { count: 1, id: "betterarcheology:iron_brush" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["723080358E788908"]
+			id: "3ADAFAA0E1E76F9F"
+			tasks: [{
+				id: "27016D867D0A6737"
+				item: { count: 1, id: "betterarcheology:unidentified_artifact" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58A8CC4BF1C09EC5"]
+			id: "18AE2F3779613D95"
+			tasks: [{
+				id: "53BA23CC4DDC1D90"
+				item: { count: 1, id: "betterarcheology:diamond_brush" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["18AE2F3779613D95"]
+			id: "0482D3F82F0259EB"
+			tasks: [{
+				id: "4C06E3DEE9D5760F"
+				item: { count: 1, id: "betterarcheology:netherite_brush" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "62D876FB1F9BC07C"
+			tasks: [{
+				id: "57AA33A9E278967C"
+				item: { count: 1, id: "betterarcheology:torrent_totem" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "37B4FD75CC66BC13"
+			tasks: [{
+				id: "6D33E8B85BA9B5DA"
+				item: { count: 1, id: "betterarcheology:soul_totem" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "6DD1C35C3152499D"
+			tasks: [{
+				id: "1E2D986D935543E2"
+				item: { count: 1, id: "betterarcheology:growth_totem" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "7075A7D47960F908"
+			tasks: [{
+				id: "4948B8F49DA0F38D"
+				item: { count: 1, id: "betterarcheology:radiance_totem" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "223862A0B66DC5C6"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "emi_loot:textures/gui/sunny.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "3B46C945FF92B8DB"
+				structure: "betterarcheology:light_temple"
+				type: "structure"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "minecraft:suspicious_sand"
+			}
+			id: "5E4141385A55F21E"
+			tasks: [
+				{
+					id: "4AF6399229DBF293"
+					type: "checkmark"
+				}
+				{
+					advancement: "minecraft:adventure/salvage_sherd"
+					criterion: ""
+					id: "5F3F9BD1B56CD900"
+					type: "advancement"
+				}
+			]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5E4141385A55F21E"]
+			id: "4CAB8C30F742F5B9"
+			tasks: [
+				{
+					id: "1EE20EA0D60BB6FA"
+					item: { count: 1, id: "minecraft:angler_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "75267265C0EFA2B5"
+					item: { count: 1, id: "minecraft:archer_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "71A02A53A3BC4EF0"
+					item: { count: 1, id: "minecraft:arms_up_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "4AD3D4A9FB782A85"
+					item: { count: 1, id: "minecraft:blade_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "1E5927B55D64B191"
+					item: { count: 1, id: "minecraft:brewer_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "6370A91E44C40ECF"
+					item: { count: 1, id: "minecraft:burn_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "26E502FEF90E2EC6"
+					item: { count: 1, id: "minecraft:danger_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "62A533653B880F42"
+					item: { count: 1, id: "minecraft:flow_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "3B2D0A377639CC8D"
+					item: { count: 1, id: "minecraft:explorer_pottery_sherd" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5E4141385A55F21E"]
+			id: "6A574480AE47EF73"
+			tasks: [
+				{
+					id: "1A921C6D29F042BB"
+					item: { count: 1, id: "minecraft:friend_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "65E203C86B2C849B"
+					item: { count: 1, id: "minecraft:guster_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "6D8D3F5A5A30710D"
+					item: { count: 1, id: "minecraft:heart_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "1E39F380A8B159BB"
+					item: { count: 1, id: "minecraft:heartbreak_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "04A171FCE4BC88CB"
+					item: { count: 1, id: "minecraft:howl_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "44C31FC4433DDD81"
+					item: { count: 1, id: "minecraft:miner_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "78F289A0125DBCD6"
+					item: { count: 1, id: "minecraft:mourner_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "5B22D1C9CB6798F2"
+					item: { count: 1, id: "minecraft:plenty_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "5FE9C5A94909B537"
+					item: { count: 1, id: "minecraft:prize_pottery_sherd" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5E4141385A55F21E"]
+			id: "3725C5B105678CCE"
+			tasks: [
+				{
+					id: "11D4B411366BBCD1"
+					item: { count: 1, id: "minecraft:scrape_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "1A4A5CB111298E57"
+					item: { count: 1, id: "minecraft:sheaf_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "5E467942B40AC399"
+					item: { count: 1, id: "minecraft:shelter_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "0B5E9B339BF669CC"
+					item: { count: 1, id: "minecraft:skull_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "05F07C22B09A2FF3"
+					item: { count: 1, id: "minecraft:snort_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "496F1C98F410109A"
+					item: { count: 1, id: "dungeonsdelight:gluttony_pottery_sherd" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			id: "44AB8BC01F38D748"
+			tasks: [{
+				id: "765EE08E9E595BDA"
+				item: { count: 1, id: "betterarcheology:bomb" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			id: "34E462860DFD75A5"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "ftblibrary:textures/faces/caverns_and_chasms/skeleton_cat.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "2650FAC82D698F5F"
+				structure: "betterarcheology:catacombs"
+				type: "structure"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			id: "05B18588F1D629AC"
+			tasks: [{
+				id: "0158F21AAA0B8A8E"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			id: "2B53AFDBE7594CD9"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/map/decorations/jungle_temple.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "0B69AED25D8F9F18"
+				structure: "betterarcheology:temple_jungle"
+				type: "structure"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+	]
+}

@@ -1,0 +1,389 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: ""
+	icon: {
+		id: "toms_storage:inventory_connector"
+	}
+	id: "54E77E1319425D7A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["56C7BBE39F8D3A17"]
+			id: "0C897F5883D5E269"
+			tasks: [{
+				id: "0908DB27D5C1EFC6"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:filter_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["45545B1F76F73C58"]
+			id: "772D6B3915045D85"
+			tasks: [{
+				id: "1EF7610AF65C61E0"
+				item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:copper_backpack" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["69AB6251C2739251"]
+			id: "45545B1F76F73C58"
+			tasks: [{
+				id: "3209978CAFF2CA67"
+				item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:backpack" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["772D6B3915045D85"]
+			id: "565321D667B32D1C"
+			tasks: [{
+				id: "4C57AB74BC23AA30"
+				item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:iron_backpack" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["565321D667B32D1C"]
+			id: "171475E478A33A88"
+			tasks: [{
+				id: "7B45D6D7F4BCCF5F"
+				item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:gold_backpack" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["171475E478A33A88"]
+			id: "131EE07E6BCCA41A"
+			tasks: [{
+				id: "312C55FFFB86E7DC"
+				item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:diamond_backpack" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["131EE07E6BCCA41A"]
+			id: "0EEBE65A2C70EBC2"
+			size: 2.0d
+			tasks: [{
+				id: "710513FD0CCC9D72"
+				item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:netherite_backpack" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "69AB6251C2739251"
+			tasks: [{
+				id: "3833603A85FC1DE7"
+				item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:upgrade_base" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69AB6251C2739251"]
+			id: "30AC6DBDD397AEA0"
+			tasks: [{
+				id: "3BA1AAEB2E83509D"
+				item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:filter_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69AB6251C2739251"]
+			id: "0B5EF28D83404B80"
+			tasks: [{
+				id: "01A0A98CAC092FEC"
+				item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:void_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69AB6251C2739251"]
+			id: "62893CD7765EC79B"
+			tasks: [{
+				id: "2BC9D194B6B34555"
+				item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:stack_upgrade_starter_tier" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69AB6251C2739251"]
+			id: "6EEAD408ACFCB8D1"
+			tasks: [{
+				id: "5F1FA0C0EA0F67AA"
+				item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:jukebox_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69AB6251C2739251"]
+			id: "7518F3130D653E81"
+			tasks: [{
+				id: "64362F1D1BD7533C"
+				item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:crafting_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["56C7BBE39F8D3A17"]
+			id: "48FFE7497BBEE5A6"
+			tasks: [{
+				id: "703A65189C898011"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:crafting_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["56C7BBE39F8D3A17"]
+			id: "31F6D13508BF2FEE"
+			tasks: [{
+				id: "58F9C4810802C77A"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:void_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56C7BBE39F8D3A17"]
+			id: "66F7E9279957789E"
+			tasks: [{
+				id: "2A49FCDD2EEA7C58"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:stack_upgrade_tier_1" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56C7BBE39F8D3A17"]
+			id: "0EE4F3FE79B0A0A1"
+			tasks: [{
+				id: "37D61DA6C12BCAD5"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:jukebox_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"619226DC15708B48"
+				"7C6995DD5EB338B4"
+			]
+			id: "066D3C07B58BC60B"
+			tasks: [{
+				id: "4BCD3440612B7B5D"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:chest" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			id: "619226DC15708B48"
+			tasks: [{
+				id: "497A026171314F84"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:basic_tier_upgrade" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "56C7BBE39F8D3A17"
+			tasks: [{
+				id: "36327B948E82C6D4"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:upgrade_base" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["619226DC15708B48"]
+			id: "3D2D8AD5E4C70926"
+			tasks: [{
+				id: "1569A750D75122B7"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:barrel" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["619226DC15708B48"]
+			id: "31C9A377B7600B5E"
+			tasks: [{
+				id: "7C119C45645C4D99"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:limited_barrel_2" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["619226DC15708B48"]
+			id: "22C721D43E72311E"
+			tasks: [{
+				id: "61DCB8E2F2818A12"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:limited_barrel_3" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["619226DC15708B48"]
+			id: "53B80FC37C0565C4"
+			tasks: [{
+				id: "5E5E2212ABB42964"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:limited_barrel_4" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			id: "7C6995DD5EB338B4"
+			size: 2.0d
+			tasks: [{
+				id: "031308DFA884ACC0"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:controller" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C6995DD5EB338B4"]
+			id: "7974D6062AD4597C"
+			tasks: [{
+				id: "4BF4DD5AB455D4D9"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:oak_storage_connector" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C6995DD5EB338B4"]
+			id: "35A7BA801FBF4338"
+			tasks: [{
+				id: "6E5D3AEF4BF0BAC9"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:storage_link" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C6995DD5EB338B4"]
+			id: "411185A721480E9D"
+			tasks: [{
+				id: "0986C01A4173AADF"
+				item: { components: { "ftbquests:missing_item": "sophisticatedstorage:storage_tool" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0E074979195FF451"]
+			id: "611E5BB59AA62290"
+			tasks: [{
+				id: "6C24F63B1E6106B7"
+				item: { count: 1, id: "toms_storage:inventory_connector" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "0E074979195FF451"
+			size: 2.0d
+			tasks: [{
+				id: "7EAC0BC06AF649F0"
+				item: { count: 1, id: "toms_storage:storage_terminal" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E074979195FF451"]
+			id: "5F7555B5F059BAD1"
+			tasks: [{
+				id: "021DCF567562CEA7"
+				item: { count: 1, id: "toms_storage:crafting_terminal" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E074979195FF451"]
+			id: "4757B1D9CE13ACFE"
+			tasks: [{
+				id: "08269889B151EB11"
+				item: { count: 1, id: "toms_storage:inventory_cable" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E074979195FF451"]
+			id: "20317191EC5DD8A7"
+			tasks: [{
+				id: "726810B272679ACB"
+				item: { count: 1, id: "toms_storage:inventory_interface" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E074979195FF451"]
+			id: "1ECA2E54A29DFAC0"
+			tasks: [{
+				id: "249A368E4A483F8F"
+				item: { count: 1, id: "toms_storage:filing_cabinet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+	]
+}

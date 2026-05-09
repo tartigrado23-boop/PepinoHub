@@ -1,0 +1,138 @@
+{
+	autofocus_id: "5A32DC873703B03A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: {
+		id: "culturaldelights:cut_cucumber"
+	}
+	id: "0AD474699598EEA8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "culturaldelights:item/cut_cucumber"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5A32DC873703B03A"
+			size: 3.0d
+			tasks: [{
+				id: "18942DCF462B75A2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A32DC873703B03A"]
+			id: "76E64FDE9A748DB6"
+			rewards: [{
+				id: "749955843116F862"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52E7B77A8B62CB4B"
+				item: { count: 1, id: "solcarrot:food_book" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A32DC873703B03A"]
+			id: "0905A0080C54BA1C"
+			rewards: [{
+				id: "262948D7E01AAEB0"
+				item: {
+					count: 1
+					id: "createdeco:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B3B07001DAA5317"
+				item: { count: 1, id: "ftbquests:book" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A32DC873703B03A"]
+			icon: {
+				components: {
+					"ftbquests:icon": "tradingpost:textures/gui/sprites/container/villager/magnifying_glass.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "335488CDE51FA59C"
+			rewards: [{
+				id: "60D004094AE3CE8F"
+				item: {
+					count: 1
+					id: "minecraft:spyglass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46D6615886C61995"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A32DC873703B03A"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/campfire_fire"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "359CCB639EBFFBBF"
+			rewards: [{
+				id: "5E8026984D5F0400"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:luck"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66D711956E8C527B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0905A0080C54BA1C"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/pin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4370BEC8A7E7EF0C"
+			tasks: [{
+				id: "58C224300F590F37"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+	]
+}

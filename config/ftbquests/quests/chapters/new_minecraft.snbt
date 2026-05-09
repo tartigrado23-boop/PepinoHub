@@ -1,0 +1,590 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "new_minecraft"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:textures/gui/sprites/icon/news.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "14114B6BDA34D717"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "08E42C4AC07D3E46"
+			rewards: [{
+				id: "6FBE6AF775206C36"
+				item: {
+					count: 1
+					id: "minecraft:white_harness"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10EB83F4E4DD945C"
+				item: { count: 1, id: "minecraft:dried_ghast" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "12850EE9E1C58D8D"
+			rewards: [{
+				id: "47145AD7D18C17AF"
+				item: {
+					count: 1
+					id: "minecraft:brush"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E7C61DC8A888D4D"
+				item: { count: 1, id: "minecraft:brush" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12850EE9E1C58D8D"]
+			id: "29599FF6DA6E7332"
+			tasks: [{
+				id: "29A37A53DD96A848"
+				item: { count: 1, id: "minecraft:sniffer_egg" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["037AE5A550D1D594"]
+			id: "705DADE70DA245CC"
+			tasks: [
+				{
+					id: "7BB6F839621B411C"
+					item: { count: 1, id: "minecraft:trial_key" }
+					type: "item"
+				}
+				{
+					id: "34E8EAFD6CAB91DB"
+					item: { count: 1, id: "minecraft:wind_charge" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["705DADE70DA245CC"]
+			id: "0434B2BD16941A70"
+			tasks: [{
+				id: "03088C7098ADF8C1"
+				item: { count: 1, id: "minecraft:ominous_trial_key" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0434B2BD16941A70"]
+			id: "2F123A5C29C92BCB"
+			tasks: [{
+				id: "6954C0F4ED2F73C4"
+				item: { count: 1, id: "minecraft:heavy_core" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "037AE5A550D1D594"
+			tasks: [{
+				id: "054A52414A7DDF08"
+				structure: "minecraft:trial_chambers"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "29BCA9B59FACAB53"
+			tasks: [
+				{
+					id: "333210AEE6015D06"
+					item: { count: 1, id: "minecraft:torchflower" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D5B663A14E736B0"
+					item: { count: 1, id: "minecraft:pitcher_plant" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "503D2081FF2D8FEE"
+					item: { count: 1, id: "minecraft:pitcher_pod" }
+					type: "item"
+				}
+				{
+					id: "2217118D58B49FD8"
+					item: { count: 1, id: "minecraft:torchflower_seeds" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"02B14246322549C6"
+				"27E0AE197F3BFD96"
+				"5497E8F7A1712119"
+				"6239254EC14381DF"
+				"509A6D7F5C027768"
+			]
+			id: "12BAB6C3741C8DCD"
+			tasks: [{
+				id: "4AC0E856975D1E9B"
+				item: { count: 1, id: "minecraft:smithing_table" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12850EE9E1C58D8D"]
+			id: "6239254EC14381DF"
+			tasks: [
+				{
+					id: "143C87D94DFAF8AD"
+					item: { count: 1, id: "minecraft:sentry_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "7F30A26B1FA45C2E"
+					item: { count: 1, id: "minecraft:vex_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "242CA3411C9E76E9"
+					item: { count: 1, id: "minecraft:wild_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "612618276F8185FB"
+					item: { count: 1, id: "minecraft:coast_armor_trim_smithing_template" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["12850EE9E1C58D8D"]
+			id: "27E0AE197F3BFD96"
+			tasks: [
+				{
+					id: "578B53AA2FB93112"
+					item: { count: 1, id: "minecraft:wayfinder_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "68512207D78D3BC7"
+					item: { count: 1, id: "minecraft:raiser_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "024B2124AD2F3B62"
+					item: { count: 1, id: "minecraft:shaper_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "57F51A77DA6BB627"
+					item: { count: 1, id: "minecraft:host_armor_trim_smithing_template" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12850EE9E1C58D8D"]
+			id: "5497E8F7A1712119"
+			tasks: [
+				{
+					id: "104555453566044A"
+					item: { count: 1, id: "minecraft:dune_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "0E1AE3FE20A01D61"
+					item: { count: 1, id: "minecraft:ward_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "30000A6E78631188"
+					item: { count: 1, id: "minecraft:silence_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "65E8ABA5F8C6757E"
+					item: { count: 1, id: "minecraft:tide_armor_trim_smithing_template" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["12850EE9E1C58D8D"]
+			id: "509A6D7F5C027768"
+			tasks: [
+				{
+					id: "3D2A71A2F2903B06"
+					item: { count: 1, id: "minecraft:snout_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "0FCB6893B6AB949B"
+					item: { count: 1, id: "minecraft:rib_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "7BA130804FEC81A2"
+					item: { count: 1, id: "minecraft:eye_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "16FD55419AF568DC"
+					item: { count: 1, id: "minecraft:spire_armor_trim_smithing_template" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12850EE9E1C58D8D"]
+			id: "02B14246322549C6"
+			tasks: [
+				{
+					id: "134342586A66F15D"
+					item: { count: 1, id: "minecraft:flow_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "0D8410A13DD6AD8D"
+					item: { count: 1, id: "minecraft:bolt_armor_trim_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "555799D13EA19C8A"
+					item: { count: 1, id: "supplementaries:blast_armor_trim_smithing_template" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "79A4333CA2FF7A46"
+			rewards: [{
+				count: 16
+				id: "44C6599C2623D680"
+				item: {
+					count: 1
+					id: "minecraft:cherry_sapling"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "555A96D5D081A276"
+				item: { count: 1, id: "minecraft:cherry_log" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["521A2904CB164EC2"]
+			icon: {
+				id: "minecraft:warden_spawn_egg"
+			}
+			id: "7AD8B929AD8753AA"
+			tasks: [{
+				custom_name: "Warden"
+				entity: "minecraft:warden"
+				id: "112A8D1C667475FA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["286C210FE041E288"]
+			id: "40E6262400D545BB"
+			tasks: [
+				{
+					id: "215C06E68AD9BE0D"
+					item: { count: 1, id: "minecraft:sculk_sensor" }
+					type: "item"
+				}
+				{
+					id: "0AEFD8B3AB2CA06F"
+					item: { count: 1, id: "minecraft:sculk_shrieker" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40E6262400D545BB"]
+			id: "521A2904CB164EC2"
+			tasks: [{
+				id: "78CF4D6C49960FEF"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "286C210FE041E288"
+			tasks: [{
+				biome: "#minecraft:has_structure/ancient_city"
+				icon: {
+					id: "minecraft:sculk"
+				}
+				id: "29BAA2DA8F8233ED"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "2ED76E938C7490D5"
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "1E08E3A9DBC25591"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "3D87F48D4AEE0FAC"
+			tasks: [{
+				id: "3274A9889EE0EFD8"
+				item: { count: 1, id: "minecraft:tadpole_bucket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3D87F48D4AEE0FAC"]
+			id: "6D64F6340212EACC"
+			tasks: [
+				{
+					id: "3A11908C4D7EA775"
+					item: { count: 1, id: "minecraft:ochre_froglight" }
+					type: "item"
+				}
+				{
+					id: "78EFA467D9EF765B"
+					item: { count: 1, id: "minecraft:verdant_froglight" }
+					type: "item"
+				}
+				{
+					id: "33A2BFBFC5FD0F51"
+					item: { count: 1, id: "minecraft:pearlescent_froglight" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["232EDC9C5B9DD48E"]
+			id: "441134362251233D"
+			tasks: [{
+				id: "51F7FE80A85309B4"
+				item: { count: 1, id: "minecraft:axolotl_bucket" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			id: "5DA229D6C8F3C1BF"
+			rewards: [{
+				id: "31F1EA08C387EBA2"
+				item: {
+					count: 1
+					id: "minecraft:emerald_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "7A1A07C4E6733D44"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "5EB22976D36B6E5F"
+			tasks: [{
+				id: "16416D1E52E67A4D"
+				item: { count: 1, id: "minecraft:trident" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "minecraft:turtle_helmet"
+			}
+			id: "174F0552C2231358"
+			tasks: [
+				{
+					id: "632CDE05450B53D8"
+					item: { count: 1, id: "minecraft:turtle_scute" }
+					type: "item"
+				}
+				{
+					id: "2C66F3F69C91E109"
+					item: { count: 1, id: "minecraft:turtle_helmet" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "541CE2478E43027A"
+			tasks: [{
+				id: "2DDA2056DA7FF9F8"
+				item: { count: 1, id: "minecraft:creaking_heart" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			id: "3158959D98663655"
+			rewards: [{
+				id: "7C9474CBAAFD93D4"
+				item: {
+					count: 1
+					id: "create_aquatic_ambitions:prismarine_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6570109ABE57FB8C"
+				item: { count: 1, id: "minecraft:conduit" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			id: "1900032925533483"
+			tasks: [{
+				id: "472A69606C6BD709"
+				item: { count: 1, id: "minecraft:warped_fungus_on_a_stick" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			icon: {
+				id: "minecraft:wolf_armor"
+			}
+			id: "20B200DD7CD30051"
+			rewards: [{
+				count: 8
+				id: "541787D67D9D61F3"
+				item: {
+					count: 1
+					id: "minecraft:bone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 5L
+					id: "068EAAC15C16004F"
+					item: { count: 1, id: "minecraft:armadillo_scute" }
+					type: "item"
+				}
+				{
+					id: "04CE973EEB2E79EF"
+					item: { count: 1, id: "minecraft:wolf_armor" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			id: "4A94A532D39A2F52"
+			rewards: [
+				{
+					id: "1B1553E3E17197D4"
+					item: {
+						count: 1
+						id: "minecraft:skull_banner_pattern"
+					}
+					type: "item"
+				}
+				{
+					id: "6D9E62789E778538"
+					item: {
+						count: 1
+						id: "minecraft:creeper_banner_pattern"
+					}
+					type: "item"
+				}
+				{
+					id: "5D1CB02FF5EFC3A9"
+					item: {
+						count: 1
+						id: "minecraft:flow_banner_pattern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1255B2DF065F1D87"
+				item: { count: 1, id: "minecraft:loom" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			id: "232EDC9C5B9DD48E"
+			tasks: [{
+				id: "1994334F6DC4D8B9"
+				item: { count: 1, id: "minecraft:tropical_fish_bucket" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+	]
+}

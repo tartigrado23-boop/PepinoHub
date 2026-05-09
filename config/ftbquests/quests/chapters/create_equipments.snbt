@@ -1,0 +1,331 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_equipments"
+	group: "1962327F85A696BC"
+	icon: {
+		id: "create_sa:portable_drill"
+	}
+	id: "50BE99B99AB114AF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["29C0D2F651996568"]
+			id: "11798D07B93D721F"
+			size: 2.0d
+			tasks: [{
+				id: "143AAA74AF29DBF5"
+				item: { count: 1, id: "create_sa:portable_drill" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["25AF82CBD8338567"]
+			id: "29C0D2F651996568"
+			tasks: [{
+				id: "3D5FD88B1EE7824D"
+				item: { count: 1, id: "create_sa:brass_drill_head" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			id: "25AF82CBD8338567"
+			tasks: [{
+				id: "452899F741D8EDA9"
+				item: { count: 1, id: "create_sa:steam_engine" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["25AF82CBD8338567"]
+			id: "5C4C10A2323D25FB"
+			tasks: [{
+				id: "6FD9F876807F152F"
+				item: { count: 1, id: "create_sa:brass_jetpack_chestplate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C4C10A2323D25FB"]
+			id: "445C73F84B7100DC"
+			size: 2.0d
+			tasks: [{
+				id: "1195E8D57A0F9557"
+				item: { count: 1, id: "create_sa:netherite_jetpack_chestplate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["508F4BD8536627E0"]
+			icon: {
+				id: "create_sa:blazing_pickaxe"
+			}
+			id: "3C4DD8086ED40506"
+			tasks: [
+				{
+					id: "4DEEC232AA295B55"
+					item: { count: 1, id: "create_sa:blazing_cleaver" }
+					type: "item"
+				}
+				{
+					id: "26D374D57DFF7EFF"
+					item: { count: 1, id: "create_sa:blazing_axe" }
+					type: "item"
+				}
+				{
+					id: "2E8D2B6A6E5C7608"
+					item: { count: 1, id: "create_sa:blazing_shovel" }
+					type: "item"
+				}
+				{
+					id: "144CC7B5271A629E"
+					item: { count: 1, id: "create_sa:blazing_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "192198652C5E1638"
+			tasks: [
+				{
+					id: "4E5644381A94CA36"
+					item: { count: 1, id: "create_sa:small_fueling_tank" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4D8A0056C6F71F2A"
+					item: { count: 1, id: "create_sa:medium_fueling_tank" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "47056988DD1BA2E1"
+					item: { count: 1, id: "create_sa:large_fueling_tank" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			id: "0B39FB6C49D72915"
+			tasks: [
+				{
+					id: "713DA88EA1FF45C7"
+					item: { count: 1, id: "create_sa:small_filling_tank" }
+					type: "item"
+				}
+				{
+					id: "2C702D88A01BF232"
+					item: { count: 1, id: "create_sa:medium_filling_tank" }
+					type: "item"
+				}
+				{
+					id: "1808D25E308672A3"
+					item: { count: 1, id: "create_sa:large_filling_tank" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11798D07B93D721F"]
+			id: "5947EFDD312B3689"
+			tasks: [{
+				id: "323305280AC3D164"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "create_sa:digging": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7BBBAEA9B21AF57A"]
+			id: "47B9F6072AEE302C"
+			tasks: [{
+				id: "77AC8EE17532551F"
+				item: { count: 1, id: "create_sa:copper_jetpack_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C72BBF2C32F12D7"]
+			id: "7C09E257055FED11"
+			tasks: [{
+				id: "53C9364FE5D736A1"
+				item: { count: 1, id: "create_sa:andesite_jetpack_chestplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C4C10A2323D25FB"]
+			id: "328CD111BABA74B6"
+			tasks: [{
+				id: "31DF6A469F034ECA"
+				item: { count: 1, id: "create_sa:brass_exoskeleton_chestplate" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C72BBF2C32F12D7"]
+			id: "657DDCBD8008C290"
+			tasks: [{
+				id: "6FF0D3D84361B7B6"
+				item: { count: 1, id: "create_sa:andesite_exoskeleton_chestplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7BBBAEA9B21AF57A"]
+			id: "33332F3A06593E76"
+			tasks: [{
+				id: "7747F6AEC10EE671"
+				item: { count: 1, id: "create_sa:copper_exoskeleton_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "4C72BBF2C32F12D7"
+			tasks: [{
+				id: "556B634F45364B96"
+				item: { count: 1, id: "create_sa:heat_engine" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			id: "7BBBAEA9B21AF57A"
+			tasks: [{
+				id: "2F5DEBDA994275A2"
+				item: { count: 1, id: "create_sa:hydraulic_engine" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C72BBF2C32F12D7"]
+			id: "6AEB5F1786A2656E"
+			tasks: [{
+				id: "6CAF77B7EA5C85C6"
+				item: { count: 1, id: "create_sa:flamethrower" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47A357B0086C353E"]
+			icon: {
+				id: "create_sa:brass_drone_item"
+			}
+			id: "76603BFCFC0CF266"
+			tasks: [
+				{
+					id: "2DC5040B40BEBE35"
+					item: { count: 1, id: "create_sa:brass_drone_item" }
+					type: "item"
+				}
+				{
+					id: "6E54ED6EF5AD9DFE"
+					item: { count: 1, id: "create_sa:drone_controller" }
+					type: "item"
+				}
+				{
+					id: "01FA56D778009C61"
+					item: { count: 1, id: "create_sa:copper_magnet" }
+					type: "item"
+				}
+				{
+					id: "65ECE2C1F89E8D46"
+					item: { count: 1, id: "create_sa:fan_component" }
+					type: "item"
+				}
+				{
+					id: "7810A371DA73B7BA"
+					item: { count: 1, id: "create_sa:vault_component" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "create_sa:slime_boots"
+			}
+			id: "5FF85737C33AC87F"
+			tasks: [
+				{
+					id: "1B0AAD1748CED158"
+					item: { count: 1, id: "create_sa:slime_helmet" }
+					type: "item"
+				}
+				{
+					id: "2D688A5D4D7DF114"
+					item: { count: 1, id: "create_sa:slime_boots" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["508F4BD8536627E0"]
+			icon: {
+				id: "create_sa:rose_quartz_pickaxe"
+			}
+			id: "38AC9D2F2DF36FDE"
+			tasks: [
+				{
+					id: "1BCA8106342CF304"
+					item: { count: 1, id: "create_sa:rose_quartz_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "483EC1F89A0E6712"
+					item: { count: 1, id: "create_sa:rose_quartz_shovel" }
+					type: "item"
+				}
+				{
+					id: "214D82A46C9E7300"
+					item: { count: 1, id: "create_sa:rose_quartz_axe" }
+					type: "item"
+				}
+				{
+					id: "30169A247B9187EE"
+					item: { count: 1, id: "create_sa:rose_quartz_sword" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+}

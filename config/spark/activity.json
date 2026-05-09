@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Tartigrado",
+      "uniqueId": "b038c2b1-dc1a-4e98-b847-d5ad7b647d0b"
+    },
+    "time": 1777905215100,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/gO2jr6yCEV"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Tartigrado",
+      "uniqueId": "b038c2b1-dc1a-4e98-b847-d5ad7b647d0b"
+    },
+    "time": 1777901679058,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/u09dPtviL1"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Tartigrado",
+      "uniqueId": "b038c2b1-dc1a-4e98-b847-d5ad7b647d0b"
+    },
+    "time": 1777901526275,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/EAT30d0SkU"
+    }
+  }
+]

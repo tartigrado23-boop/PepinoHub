@@ -1,0 +1,302 @@
+{
+	chapter.04A5EDE4741AE541.title: "Corn's Delight"
+	chapter.064D1F4F8C6AB1AB.title: "YUNG"
+	chapter.0AD474699598EEA8.title: "Welcome"
+	chapter.0D84EB258BD04A27.title: "Farmer's Delights"
+	chapter.14114B6BDA34D717.title: "\"New\" Minecraft"
+	chapter.1523E2D96EFB96EC.title: "End's Delight"
+	chapter.16096F0D7FDD846D.title: "Quark-ementaries"
+	chapter.20D44BD2D5002A69.title: "Enchantment Industries"
+	chapter.234DAACD5ABA7006.title: "Better Archeology"
+	chapter.250B96F3BB5D0310.title: "My Nether's Delight"
+	chapter.2E939C32745C9FF7.title: "Miner's Delight"
+	chapter.32669D2B0414E4F2.title: "Cultural Delight"
+	chapter.3274B37FB6EBE43F.title: "Crafts and Additions"
+	chapter.355C4B54FB1EE0FD.title: "Critters and Friends"
+	chapter.3622091A39D5142A.title: "[WIP] Challenges"
+	chapter.394748CECF31D432.title: "End Yourself"
+	chapter.50B484285CB2852B.title: "Create"
+	chapter.50BE99B99AB114AF.title: "Create Stuff n' Additions"
+	chapter.54E77E1319425D7A.title: "Storage"
+	chapter.5E33BF82D07A40F7.title: "Quirks"
+	chapter.5FABB82818FA5DEE.title: "Ocean's Delight"
+	chapter.6B72DD20A9135C81.title: "Artifacts"
+	chapter.6D75C8051DDBF5B1.title: "Go to Hell"
+	chapter.729DCAF311D35CB7.title: "Dungeon's Delight"
+	chapter_group.1962327F85A696BC.title: "Create and Addons"
+	chapter_group.1F51619AAA9873BF.title: "Progression"
+	chapter_group.7199986A126B10F3.title: "Delights WIP"
+	quest.0349CFFAE5CD2ADA.quest_desc: [
+		"Wrenches can be used to rotate mahines, make pipes into windowed pipes, and pick up items to your inventory instantly by shift+right clicking them."
+		""
+		"Goggles will let you see more information about your machines."
+		""
+		"Speedometers and Stressometers will let you see a system's speed and stress units."
+	]
+	quest.0349CFFAE5CD2ADA.title: "An engineer's toolkit"
+	quest.038A223866CA7830.quest_desc: ["Sleep Tight is a mod that changes how you interact with sleep. Try to sleep on the same bed more often to get buffs and avoid nightmares. If you plan on going out, make a Night Bag to sleep without setting your spawn. And if you're still tired, Hammocks let you sleep during the day."]
+	quest.038A223866CA7830.quest_subtitle: "Don't Let the Beg Bugs bite"
+	quest.038A223866CA7830.title: "Sleep Tight"
+	quest.0391B618EF0EA67A.quest_desc: ["No more indivitually trading with villagers. Use a trading post to trade with multiple nearby villagers at once."]
+	quest.0391B618EF0EA67A.quest_subtitle: "Centralized Market"
+	quest.03E0FAF166D5E3A5.quest_desc: ["Drop ingots or place them into a depot under a powered Machine Press to make Sheets."]
+	quest.03E0FAF166D5E3A5.title: "Oh Sheet"
+	quest.05B18588F1D629AC.quest_desc: ["Use the Explorer's Compass to find the nearest structure of some kind to your current position. It's useful "]
+	quest.0905A0080C54BA1C.quest_desc: [
+		"Quests are made to be helpful, but don't completely rely on them for progress."
+		""
+		"Search different chapters if you want ideas of what to do or need a tip for progression."
+	]
+	quest.0905A0080C54BA1C.title: "Quests"
+	quest.091CD42840671526.quest_desc: [
+		"Connect a Steam Engine to a Tank to turn it into a Boiler."
+		""
+		"Have a constant input of water into the boiler and a heat source underneath to produce high amounts of Rotational Force."
+		""
+		"Bigger Boilers and higher temperatures will create more Rotational Force."
+	]
+	quest.0B6009D26AC1CDFB.quest_desc: [
+		"The Cage lets you capture and carry around small mobs right in your inventory,"
+		""
+		"[ \"Use it as an alternative to \", { \"text\": \"Carry on\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EA4CD46CF092947\" } }, \" when traveling great distances or when having to carry many mobs,\" ]"
+	]
+	quest.19E5EAB3C91AD8EF.title: "Wait, did you say \"Create\" or \"Crate?\""
+	quest.20B200DD7CD30051.quest_desc: [
+		"Beats me..."
+		""
+		"But you can get scutes by brushing Armadillos"
+	]
+	quest.20B200DD7CD30051.quest_subtitle: "Why is it made out of Armadillos Scutes?"
+	quest.20B200DD7CD30051.title: "Dog Armor"
+	quest.2550A769A6FC5C43.quest_desc: ["Use a Trowel to randomly place items from your hot bar, making it easy to make paths and builds with block variation."]
+	quest.2550A769A6FC5C43.quest_subtitle: "Tired of Dirt paths?"
+	quest.286C210FE041E288.title: "Visit an Ancient City"
+	quest.28BB4626A29C8113.quest_desc: [
+		"Costs are reduced, anvils can be repaired with iron blocks, and items stay inside."
+		""
+		"You may also use formatting codes to make item names and name tags stand out"
+		""
+		"Check minecraft wiki's page for more in depth info"
+	]
+	quest.28BB4626A29C8113.quest_subtitle: "A few improvements to anvils"
+	quest.28BB4626A29C8113.title: "Better Anvils"
+	quest.2A1F838CCA9BF2D3.title: "Basic Logistics"
+	quest.2AEEE106C5F430C8.title: "So, i heard you like crates?"
+	quest.2E37BABC244A0DDF.quest_desc: ["Get your pet Blazes fired up by  Giving them some cake!"]
+	quest.2E37BABC244A0DDF.title: "Blaze Cake"
+	quest.335488CDE51FA59C.quest_desc: [
+		"Use and abuse of the Recipe Viewer."
+		""
+		"You can search item names and click left and right button to see how they are crafted and what they can craft."
+		""
+		"You may also search items by what mod they belong with \"@\", such as @Create."
+		""
+		"Or by tags with \"#\", to see items of a certain category, such as #hats"
+	]
+	quest.335488CDE51FA59C.title: "Recipe Viewer"
+	quest.33F538C05F4136BF.quest_desc: [
+		"Create is an awesome mod about spinning things, belts, cogs, automating stuff, and spinning some more stuff."
+		""
+		"If you're ever in doubt, use the EMI item recipe viewer or the ponder menu."
+	]
+	quest.33F538C05F4136BF.quest_subtitle: "Create it all"
+	quest.34801409DFC148D1.quest_desc: ["Iron Grates will stop passive mobs from walking over them, will still allowing you to walk over them without an issue"]
+	quest.34801409DFC148D1.quest_subtitle: "\"Oh great, the grate's stuck! Cool, what a great, grate! My great, great grandfather had a grate that was greater than this\""
+	quest.359CCB639EBFFBBF.quest_desc: [
+		"Plenty of things have been made harder, and recipes more complex, but you can also progress much further."
+		""
+		"Good Luck,"
+		""
+		"Have Fun,"
+		""
+		"And &4do not choke on the cucumber&r."
+		""
+		""
+		"{image:culturaldelights:item/cut_cucumber width:40 height:40 align:center}"
+	]
+	quest.359CCB639EBFFBBF.title: "Good Luck"
+	quest.38AC9D2F2DF36FDE.quest_desc: ["Gilded Quartz tools have high durability, are made from common materials and offer extended range."]
+	quest.38AC9D2F2DF36FDE.title: "Gilded Tools"
+	quest.3AF5F03BFBA053D2.title: "Sign me up"
+	quest.3C4DD8086ED40506.quest_desc: ["Use a Blaze Burner to mix Gold Tools and Obsidian Dust to make Blazing Tools, powerful tools infused with otherwordly energy, that have special atributes and don't get damaged on while on the nether"]
+	quest.3C4DD8086ED40506.title: "Blazing Tools"
+	quest.3FD67BAE7085831B.quest_desc: [
+		"Use Trash Cans to easily trash items or decorate."
+		""
+		"They can be used to automatically trash items like poisoned potatoes from potato farms or any other unwanted items."
+	]
+	quest.3FD67BAE7085831B.quest_subtitle: "It's called 'Trash Can', not 'Trash Can't'"
+	quest.3FD67BAE7085831B.title: "Trash Can"
+	quest.42FDB0A489F9D7B5.quest_desc: ["Copper Casing is the base for many liquid manipulation tools."]
+	quest.4370BEC8A7E7EF0C.quest_desc: ["Pin quests to follow their progress while you play and to remind yourself what to do next"]
+	quest.4370BEC8A7E7EF0C.title: "Pin"
+	quest.4CDD7CFE3442456B.quest_desc: ["The Sawmill block lets you craft more complex wood items from logs much more quickly, making bulk crafting things like barrel much more quickly"]
+	quest.4CDD7CFE3442456B.quest_subtitle: "Did you see it?"
+	quest.4CDD7CFE3442456B.title: "Sawmill"
+	quest.4EA4CD46CF092947.quest_desc: ["With Carry On, you can simply right click chest, storages and even some mobs with your empty hands to carry them, withou the need to break them and spread hundreads of items around,"]
+	quest.4EA4CD46CF092947.quest_subtitle: "This should totally be in the base game"
+	quest.4EA4CD46CF092947.title: "Carry On"
+	quest.4FF7CAD7EF657AB2.quest_desc: ["Sneak and right click while holding an item with the mending enchantment to spend the XP you already have to repair it"]
+	quest.4FF7CAD7EF657AB2.quest_subtitle: "I couldnt add an enchanted book as the quest icon"
+	quest.4FF7CAD7EF657AB2.title: "Better Mending"
+	quest.508B963919919633.title: "But you do still like crates, right?"
+	quest.508F4BD8536627E0.quest_desc: ["Capture the heat a Blaze by right clicking it with an Empty Blaze Burner"]
+	quest.508F4BD8536627E0.title: "Blaze Burner"
+	quest.5148CAA6AD329656.quest_desc: [
+		"Make Polished Rose Quartz by rubbing together Rose Quartz in one hand and sand paper on another."
+		""
+		"Can be used to craft many complext machines or craft powerful gear."
+	]
+	quest.514CF7FC6AAE444A.quest_desc: [
+		"The Nether is cursed! Going unprepared will inflict a couple of minor debuffs.."
+		""
+		"Make a nether portal with protection runes, crafted from armor trims that you found or crafted, to make protect youself from the curse,"
+		""
+		"You can also make a Protective Amulet, that left on your inventory will make you immune to the curse."
+	]
+	quest.514CF7FC6AAE444A.quest_subtitle: "Oh no,,,"
+	quest.53FDDB39F334E07F.quest_desc: [
+		"Horses are better in most ways. "
+		""
+		"They can swim, get in boats, get less stuck in trees, let you mine on top of them, and you can equip them with a lead, to automatically tie them up to any fences without having to dismount."
+		""
+		"Also, two peolpe shoul be able to mount on a single horse (probably, haven't tested it)"
+	]
+	quest.53FDDB39F334E07F.quest_subtitle: "Neigh, I say"
+	quest.53FDDB39F334E07F.title: "Better Horses"
+	quest.599D13CBCAC60786.quest_desc: [
+		"Casing are made from right clicking any striped log with Andesite Alloy"
+		""
+		"Strip logs by right clicking them with an axe"
+		""
+		"You can automate this process with a Deployer"
+	]
+	quest.599D13CBCAC60786.title: "Andesite Casing"
+	quest.5A32DC873703B03A.quest_desc: [
+		"PepinoCraft is a modpack about slowly progressing, exploring, making food, automating stuff, and seeing everything minecraft has to offer."
+		""
+		"Have fun and try to complete all the challenges"
+	]
+	quest.5A32DC873703B03A.title: "Welcome to PepinoCraft"
+	quest.5DE9DF4B6AF6FACA.quest_desc: ["Use a bartering station to easily and automatically trade with pigling on the nether. Just load it with gold and watch as piglins will barter by temselves."]
+	quest.5DE9DF4B6AF6FACA.quest_subtitle: "No more piglin holes"
+	quest.5FA6DE35F4DA6EB1.quest_desc: [
+		"Spouts can be used to fill or pour liquids into items, such as Buckets or Fuel Tanks."
+		""
+		"Item drains do the opposite, by draining whatever item's content into itself, such as a Lava Bucket."
+		""
+		"Pipes can have liquid passing through them, but you deen a Pump to pull or push the liquids. "
+		""
+		"Tanks can store a large amount of liquid."
+	]
+	quest.60F2B55C1000D4B3.title: "Simple Machines"
+	quest.617E8CC449750F52.quest_desc: ["Use Rich soil instead of normal farmland to speedup crop growth."]
+	quest.617E8CC449750F52.title: "Rich Soil"
+	quest.62FA6B9C2408235C.quest_desc: [
+		"Create 6.x adds plenty of automation and transporting options."
+		""
+		"Chain Conveyors can be connected by Chains, transporting their rotations and speed."
+		""
+		"Frogports and Packagers can be used to attach items to chains and transport them around."
+		""
+		"See the ponder menu for further information."
+	]
+	quest.62FA6B9C2408235C.title: "Welcome to Create 6.x"
+	quest.638BA6DD00BF88B8.title: "Sippy Sip"
+	quest.63E6879C4C1BF832.quest_desc: ["Items will stay inside enchanting tables and you may now quickly reroll enchanting options."]
+	quest.63E6879C4C1BF832.quest_subtitle: "From the French \"Enchanté\""
+	quest.63E6879C4C1BF832.title: "Easy Magic"
+	quest.67B69BF8238E7A52.quest_desc: [
+		"Some blocks can also be used on moving contraptions"
+		""
+		"Drills will mine full blocks towards the direction the contraption is moving, like stone"
+		""
+		"Harversters will harvest and instantly replant most crops, like wheat"
+		""
+		"Saws can cut whole trees even while hitting the bottom block, but won't replant them"
+		""
+		"Ploughs will create farmland when passing over dirt, and harvest some non full placed items, like rails"
+		""
+		""
+		"{@pagebreak}"
+		""
+		"Connect any storage blocks to a contraption to allow it to store items. You can also give it a Portable Storage Interface, so that it can connect to another one and transfer it's own inventory to it."
+	]
+	quest.67B69BF8238E7A52.title: "Block interactions"
+	quest.6BB9516292FC6810.quest_desc: [
+		"You can create Rotational Force by having water flow around a water wheel."
+		""
+		"Big water wheels spin slower but produce more speed."
+		""
+		"Connect wheels on the same axis to add their speed and rotational force."
+		""
+		"Don't forget, water isn't the only fluid that can spin water wheels."
+	]
+	quest.6BB9516292FC6810.quest_subtitle: "Spin me right round"
+	quest.6BB9516292FC6810.title: "Basic rotation production"
+	quest.6BEE31382DB86250.quest_desc: [
+		"Most things in create work by being provided Rotational Force."
+		""
+		"Produce rotational force and transport it to wherever you want with gears, shafts and many other ways."
+		""
+		"Rotational Force can be translated to a certain amount of Stess Units (SU), heavier machines will consume more SU, from your system. Use more than you have and your whole system will halt."
+		""
+		"A faster rotation speed means machines work faster, but also use more SU."
+	]
+	quest.6BEE31382DB86250.quest_subtitle: "Spin to Win"
+	quest.6BEE31382DB86250.title: "Cogs and shifts"
+	quest.6C44107B00B083AF.title: "Mise en Place"
+	quest.6C945A2E4D6D2044.quest_desc: ["It randomizes Redstone signals, what did you expect?"]
+	quest.721F03451D2D52D2.quest_desc: [
+		"Mechanical Bearing and Windmill contraptions can spin blocks connected to it arount its axis."
+		""
+		"Connect the blocks with Super Glue or use Linear Chasis."
+		""
+		"Mechanical Bearings must be spun with rotational force, while Windmill Bearings can have Sails attached to spin on their own."
+	]
+	quest.758667D684478643.quest_desc: [
+		"Hose Pulleys can fill or drain large amounts of fluids."
+		""
+		"Bodies of liquid containing 10k blocks or more are considered infinite and can never be fully drained. You can use this to make infinite lava sources."
+	]
+	quest.76603BFCFC0CF266.quest_desc: [
+		"Change the distance of the drone by pressing the up and down key."
+		""
+		"Attach modules to it to change the Drone's effect."
+	]
+	quest.76603BFCFC0CF266.quest_subtitle: "But the \"F\" stands for fun"
+	quest.76603BFCFC0CF266.title: "UFO"
+	quest.76E64FDE9A748DB6.quest_desc: [
+		"You might have noticed you started with a few hearts less than usual."
+		""
+		"Eat different foods to slowly increase your max health way above what it usually is."
+		""
+		"Craft a Food Book to see what you've already eaten and what else is on the menu."
+		""
+		"Can you cook every food?"
+	]
+	quest.76E64FDE9A748DB6.title: "Spice of Life"
+	quest.770ED6A170EE614C.quest_desc: ["Simply right click and armor stand to quickly equip it's armor. So much easier."]
+	quest.770ED6A170EE614C.quest_subtitle: "This should also be in the base game."
+	quest.770ED6A170EE614C.title: "Armor Swap"
+	quest.7CEC201303DF7454.quest_desc: ["Make minecart contraptions by activating the Cart Assemblerwith a cart underneath and connected blocks on top."]
+	quest.7CEC201303DF7454.title: "Minecart Contraption"
+	quest.7DB5B66194B467CD.quest_desc: [
+		"Make a contraption to help you &mtear the world assunder&r mine for valuabe ores and other items."
+		""
+		"Drills can mine the blocks, and deployers can place powered rails for your minecart and restone torches or blocks to power them."
+		""
+		"Deployers can also be used to place blocks underneath your contraption so that it doesn't fall."
+		""
+		""
+		"{@pagebreak}"
+		""
+		"If you want to avoid any liquids while mining, like lava in the nether, make sure to place blocks in front of your drills, so that any liquid gets replaced."
+		""
+		"Item filters will let you select what items or block do you want your contraption's deployers to place. Make sure your contraption actually has the items on an inventory block somewhere conected to it so that it can place it down."
+	]
+	quest.7DB5B66194B467CD.quest_subtitle: "Time to make your own bore"
+	quest.7DB5B66194B467CD.title: "Big Daddy"
+	task.30FA8734E7C3E131.title: "The End is just the beggining"
+	task.6648CDBB5132BCAE.title: "Noticed anything different with your nether portal?"
+}

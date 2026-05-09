@@ -1,0 +1,110 @@
+#Show welcome message at starting
+bn_wm = false
+#Heavenly Drop: Hostile Mobs nearby player has chance to receive armor and weapon
+m_gear = true
+#[Mob Spawning] Allow Hostile Mobs to spawn in full lit areas (and in daylight)
+l_mc = false
+#No Sleep: Bed cannot skip night anymore
+nosleep = false
+#Player will be killed if they stay in the dark for too long
+dc_nervous = false
+#All hostile mobs have a chance to dash forward if the target's too far
+dashforward = false
+#All hostile mobs can follow and detect players from far distance & move faster
+hardattrb = true
+#Passive mobs like Cows, Chickens, Sheep or etc... will fight back when player killed one of them
+psive_fb = false
+#Skeleton can fire an arrow from the sky into its target (Cooldown)
+sk_caskill = false
+#Skeleton has small chance to shoot multiple arrows at once
+sk_gattshot = true
+#Skeleton can swap between bow/sword for far/near target
+sk_smai = true
+#Prevent skeleton from burning in sunlight
+sk_noburn = false
+#Piglin can swap between crossbow/golden sword for far/near target
+pl_smai = true
+#Block placed by Zombie & Husk will disappear after a while
+zb_dbs = true
+#Zombie & Husk can place block - pillar up to follow its target
+zb_pblock = true
+#Zombie & Husk can break block if needed to follow its target
+zb_bblock = false
+#All zombies can break block.If disabled, only Zombies holding axe or pickaxe can break block.
+zb_allbreaker = false
+#Zombie & Husk has a new ability, which can make zombie use ender pearl, flint & steel, etc...
+zb_newabi = true
+#Zombie & Husk can throw tnt
+zb_ttnt = false
+#Prevent zombie from burning in sunlight
+zb_noburn = false
+#Zombie & Husk will summon more often
+zb_smoften = false
+#Creeper can explode even if its target is behind the wall
+cr_smai = false
+#Creeper can shoot snowball
+cr_ssnow = false
+#Creeper can randomly spawn as Powered Creeper
+cr_sap = false
+#Creeper can disguide as Passive mob like Cow, sheep, chicken,etc...
+cr_disguide = false
+#Spider can shoot web into its target (Cooldown)
+sp_shtweb = true
+#Spider can become transparent
+sp_invis = true
+#Enderman can curse its target (Random - Long cooldown)
+em_curse = false
+#Enderman can become transparent
+em_invis = true
+#Enderman can teleport its target (Cooldown)
+em_caskill = false
+#Wither Skeleton can slow its nearby target
+ws_caskill = true
+#Drowned can pull its target backward (Cooldown)
+dr_caskill = true
+#Drowned can curse its target (Random - Long cooldown)
+dr_curse = false
+#Witch can become [Master Witch] when target is nearby (Small Chance)
+mw_enable = true
+#Master Witch - Spell : Burning . Give all nearby entities Wither effect
+mw_burning = true
+#Master Witch - Spell: Freeze! Trap a random nearby player
+mw_freeze = false
+#Master Witch - Anti Gravity . Give a random nearby players Leviation effect
+mw_leviation = true
+#Master Witch - Dimension Breaker. Teleport a random nearby players.
+mw_spread = true
+#Master Witch - Mind Control . Force a nearby player (Random) to drop their weapon
+mw_drop = false
+#More types of jockey & jockey will summon more often
+jk_rsum = true
+#Blaze can split into two blazes on death
+bl_caskill = true
+#When blaze split, a lightning will be triggered
+bl_spl = true
+#Blaze can spawn at overworld
+bl_spawnao = false
+#Blaze's Skill: Trigger in a random nearby player,remove Fire Resistance Effect,dealt damage & Wither effect - 15sec.
+bl_usecurse = false
+#If players is swimming - travelling in the ocean, Mobs riding a boat have a chance to summon
+wm_rsum = false
+#Slime can shoot slimeball
+slime_sb = true
+#Silverfish can parasite its target (Small Chance)
+sfish_ife = true
+#[Nightmare Vindicator] : 'crying angel' statue. Nightmare Vindicator cannot be killed and will do nothing when it's freezing. But if any players moving nearby, it will 'unfreeze'. You can stop its moving by looking at ITS EYES.
+vd_statue = false
+#Every Skeleton has a small chance to become [The Challenger]. A mini boss with [Domain] & [Sword Qi] skills
+ws_tc = false
+#Fire Phantom has chances to summon while player is sleeping
+ptom_sleep = false
+#Phantom can pull its target up a high distance and drop it down
+ptom_carry = false
+#Fire Phantom will summon normally
+ptom_rsum = false
+#Phantom can become transparent
+ptom_invis = false
+#Ghast can shoot multiple fireball
+gh_smul = true
+#Illusioner can randomly spawn
+ilu_rsum = false

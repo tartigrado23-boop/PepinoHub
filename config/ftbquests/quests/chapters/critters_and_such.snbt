@@ -1,0 +1,251 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "critters_and_such"
+	group: ""
+	icon: {
+		components: {
+			"!ftbquests:icon": { }
+			"ftbquests:entity_face": "minecraft:axolotl"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "355C4B54FB1EE0FD"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:textures/faces/upgrade_aquatic/nautilus.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5175D6A2BDF4E6CA"
+			tasks: [{
+				id: "3247A8FED6612C21"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5175D6A2BDF4E6CA"]
+			id: "08A268BC7C17E906"
+			tasks: [{
+				id: "3E3371D06FA1F2A0"
+				item: { count: 1, id: "minecraft:nautilus_shell" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5175D6A2BDF4E6CA"]
+			id: "19657A2519FA2C75"
+			tasks: [
+				{
+					id: "3D29A65ACF6F9C55"
+					item: { count: 1, id: "minecraft:salmon" }
+					type: "item"
+				}
+				{
+					id: "312D69BA4382F063"
+					item: { count: 1, id: "minecraft:tropical_fish" }
+					type: "item"
+				}
+				{
+					id: "03006591B0D70838"
+					item: { count: 1, id: "minecraft:pufferfish" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "icons:textures/tooltip/bee/count.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "42B9B901796773BE"
+			tasks: [{
+				id: "4FCDA1667E9EA521"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42B9B901796773BE"]
+			id: "0DA59C0CC46A7EE8"
+			tasks: [
+				{
+					id: "180202151552F840"
+					item: { count: 1, id: "minecraft:dandelion" }
+					type: "item"
+				}
+				{
+					id: "20BA95B493E85DDD"
+					item: { count: 1, id: "minecraft:poppy" }
+					type: "item"
+				}
+				{
+					id: "4E7B31F3AB2C4758"
+					item: { count: 1, id: "minecraft:blue_orchid" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6ED0CCE73611565F"
+					item: { count: 1, id: "minecraft:allium" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2A5496E2B7249345"
+					item: { count: 1, id: "minecraft:azure_bluet" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42B9B901796773BE"]
+			id: "28A5D1CD7F0CC3E2"
+			tasks: [
+				{
+					id: "3BA17AE482A05BD9"
+					item: { count: 1, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+				{
+					id: "01E4CE428E0D09E3"
+					item: { count: 1, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "crittersandcompanions:textures/entity/otter.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "79BD95E31B14F5A0"
+			tasks: [{
+				id: "0EADFAB80C298AA7"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "crittersandcompanions:textures/entity/red_panda.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4D48FE5FF1B75C31"
+			tasks: [{
+				id: "0492CFACC2B90344"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "63436EB6DA84E277"
+			tasks: [{
+				id: "283F800CB4D095D8"
+				item: { count: 1, id: "minecraft:bamboo" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "292FE56DA425CD44"
+			tasks: [{
+				id: "3691324CD508F3BB"
+				item: { count: 1, id: "minecraft:sweet_berries" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42B9B901796773BE"]
+			id: "049AF333FDC9EBC6"
+			tasks: [
+				{
+					id: "3035A2064165F6F5"
+					item: { count: 1, id: "minecraft:beehive" }
+					type: "item"
+				}
+				{
+					id: "5084CD9DA50D4A1E"
+					item: { count: 1, id: "minecraft:bee_nest" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:allay"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "639DA0661E89D56F"
+			tasks: [{
+				id: "24F33F0C9D8546D8"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "34019DFF867FAC2F"
+			tasks: [
+				{
+					icon: {
+						components: {
+							"!ftbquests:icon": { }
+							"ftbquests:entity_face": "minecraft:pillager"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "00ADF708CC1F626B"
+					structure: "minecraft:pillager_outpost"
+					type: "structure"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:textures/map/decorations/woodland_mansion.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5FDA94D8B6F19CF2"
+					structure: "minecraft:mansion"
+					type: "structure"
+				}
+			]
+			x: -3.0d
+			y: -2.5d
+		}
+	]
+}

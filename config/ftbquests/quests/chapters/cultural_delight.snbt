@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cultural_delight"
+	group: "7199986A126B10F3"
+	id: "32669D2B0414E4F2"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+}

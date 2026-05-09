@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "yung"
+	group: ""
+	id: "064D1F4F8C6AB1AB"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "01B480911D56E7CA"
+		tasks: [{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:emi_ores/biome_icon/desert"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1F0679F6E6C6FAC3"
+			structure: "betterdeserttemples:desert_temple"
+			type: "structure"
+		}]
+		x: -1.0d
+		y: -0.5d
+	}]
+}

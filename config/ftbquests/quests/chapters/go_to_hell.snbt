@@ -1,0 +1,342 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "go_to_hell"
+	group: "1F51619AAA9873BF"
+	icon: {
+		components: {
+			"ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_spire"
+		}
+		id: "ftbquests:missing_item"
+	}
+	id: "6D75C8051DDBF5B1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "415F96C5A1893137"
+			rewards: [{
+				id: "45D3F297980B9040"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2B205B2588CAD291"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_bolt" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "37F63F1185C44574"
+			rewards: [{
+				id: "58642405C16E4B23"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1F5CFE90E44F1B3E"
+				item: { count: 1, id: "nether_portal_remastered:obsidian_rune_vex" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "0481DF3F46677E51"
+			rewards: [{
+				id: "798EF17C646302C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0185B030A2E3AEC2"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_flow" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "0021364D58F403F4"
+			rewards: [{
+				id: "371A583A31BDC11F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43F7FE9078A0AAD5"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_wild" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "73A8B624224E2C22"
+			rewards: [{
+				id: "08913269E2684175"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "211D390F5ECA5FA8"
+				item: { count: 1, id: "nether_portal_remastered:obsidian_rune_dune" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "659CC9F6D9A09460"
+			rewards: [{
+				id: "1A082A878CCB6457"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "081B3F1E29314C93"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_coast" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "7062B5CFE0E2895B"
+			rewards: [{
+				id: "2F6745AC5CFDE09B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "03FA77A86E6FA641"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_eye" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "3B4CAFA592271D4F"
+			rewards: [{
+				id: "126C6A64151AFF03"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7FD40FFA9258BED7"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_wayfinder" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "4287BD582650FA92"
+			rewards: [{
+				id: "6EABD500D4C66CC8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1647C5300B5FDCF9"
+				item: { count: 1, id: "nether_portal_remastered:obsidian_rune_raiser" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"73A8B624224E2C22"
+				"3B4CAFA592271D4F"
+				"2E23E76C91BF65D1"
+				"415F96C5A1893137"
+				"421F74E9A8D4ECC6"
+				"48D68B08A458B940"
+				"0481DF3F46677E51"
+				"659CC9F6D9A09460"
+				"0021364D58F403F4"
+				"2C943EAFBFCC8B66"
+				"5B52120E562071AE"
+				"3D5A1B9FFC60DFF6"
+				"7062B5CFE0E2895B"
+				"5E7EE44C64AA400F"
+				"37F63F1185C44574"
+				"20A7F9B06047B228"
+				"5E584F1448FD6A8C"
+				"4287BD582650FA92"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/nether_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "514CF7FC6AAE444A"
+			rewards: [{
+				id: "77D5803162CE0892"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:block/nether_portal"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "6648CDBB5132BCAE"
+					type: "dimension"
+				}
+				{
+					id: "15C3019CE52CBEB8"
+					item: { components: { "ftbquests:missing_item": "nether_portal_remastered:protective_amulet" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "3D5A1B9FFC60DFF6"
+			rewards: [{
+				id: "27E54CD3A084925C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "61E2411BD90193AA"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_ward" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "48D68B08A458B940"
+			rewards: [{
+				id: "5C1C1D4B65B03278"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0521F3F60A6CBF26"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_tide" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "421F74E9A8D4ECC6"
+			rewards: [{
+				id: "71C9C29F2A51B397"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "15028B1AFF12784D"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_host" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "5E7EE44C64AA400F"
+			rewards: [{
+				id: "1EB455E3FB871407"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1C1E5B04F5CC7122"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_sentry" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "20A7F9B06047B228"
+			rewards: [{
+				id: "549F5B481E03C369"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "536F32BFF0FAF09D"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_shaper" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "5B52120E562071AE"
+			rewards: [{
+				id: "15DABF6A71EB3E49"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A57595F6EDE5C2C"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_silence" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "2E23E76C91BF65D1"
+			rewards: [{
+				id: "06535AF20235F90C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7DD4E3D7CFCDA1C7"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_rib" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "5E584F1448FD6A8C"
+			rewards: [{
+				id: "0BDBD3514B0F8976"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2EFA052BD8A0AF41"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_snout" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "2C943EAFBFCC8B66"
+			rewards: [{
+				id: "01D2681AE8E49E5B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "372843359385751F"
+				item: { components: { "ftbquests:missing_item": "nether_portal_remastered:obsidian_rune_spire" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+	]
+}

@@ -1,0 +1,299 @@
+{
+	autofocus_id: "06BE7FFA1A4C2F14"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crafts"
+	group: "1962327F85A696BC"
+	icon: {
+		id: "createaddition:alternator"
+	}
+	id: "3274B37FB6EBE43F"
+	order_index: 2
+	quest_links: [{
+		id: "45564D4BFE5755E4"
+		linked_quest: "599D13CBCAC60786"
+		x: -11.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["06BE7FFA1A4C2F14"]
+			id: "505BD5E53CBF9409"
+			size: 2.0d
+			tasks: [{
+				id: "41FB70F5419633C8"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "2F2E696251A7F4C1"
+			tasks: [{
+				id: "5FBAE3E0B2FE5097"
+				item: { count: 1, id: "createaddition:cake_base" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2F2E696251A7F4C1"]
+			id: "23D4ADADAF22EAC7"
+			tasks: [{
+				id: "4869EDB8AFECFA5E"
+				item: { count: 1, id: "createaddition:cake_base_baked" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23D4ADADAF22EAC7"]
+			id: "43D61434B9F921C8"
+			tasks: [{
+				id: "33E095113CBB6808"
+				item: { count: 1, id: "createaddition:chocolate_cake" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23D4ADADAF22EAC7"]
+			id: "355489CD68AB4ADF"
+			tasks: [{
+				id: "55B53046F08C1ECB"
+				item: { count: 1, id: "createaddition:honey_cake" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"58C7FDD4D39CB3CE"
+				"06BE7FFA1A4C2F14"
+			]
+			id: "21D1B9A970F44D20"
+			size: 2.0d
+			tasks: [{
+				id: "0746935FB2BC6A00"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"22CD70D65909A317"
+				"4B40017630AB168A"
+			]
+			id: "2CFF4A4C68E9DD8F"
+			tasks: [{
+				id: "1A2F7F07154C65ED"
+				item: { count: 1, id: "createaddition:spool" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2CFF4A4C68E9DD8F"
+				"0F0E7028C87D4175"
+			]
+			id: "06BE7FFA1A4C2F14"
+			tasks: [
+				{
+					id: "229CC518FA9C9EE7"
+					item: { count: 1, id: "createaddition:copper_spool" }
+					type: "item"
+				}
+				{
+					id: "3DA4D7C06BBF17C0"
+					item: { count: 1, id: "createaddition:gold_spool" }
+					type: "item"
+				}
+				{
+					id: "0D155FFCA04EAB48"
+					item: { count: 1, id: "createaddition:electrum_spool" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76A6798E76AEAC6C"]
+			id: "4B40017630AB168A"
+			tasks: [{
+				id: "0A03E00D424B543B"
+				item: { count: 1, id: "createaddition:copper_wire" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76A6798E76AEAC6C"]
+			id: "22CD70D65909A317"
+			tasks: [{
+				id: "0CE15EEE6DF0F49F"
+				item: { count: 1, id: "createaddition:gold_wire" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"76A6798E76AEAC6C"
+				"0E296820B5B6A3E8"
+			]
+			id: "0F0E7028C87D4175"
+			tasks: [{
+				id: "7F5F4FA40CCF417F"
+				item: { count: 1, id: "createaddition:electrum_wire" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B40017630AB168A"]
+			id: "76DD2083CBA1B936"
+			tasks: [{
+				id: "4E4C42403015CADB"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F0E7028C87D4175"]
+			id: "1D05BF6BF6450FBC"
+			size: 2.0d
+			tasks: [{
+				id: "5CC1D6B507BBDB3C"
+				item: { count: 1, id: "createaddition:electrum_amulet" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76A6798E76AEAC6C"]
+			id: "6105825564378B7D"
+			tasks: [{
+				id: "15487E8ADDE7194A"
+				item: { count: 1, id: "createaddition:iron_wire" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6105825564378B7D"]
+			id: "0B5763E688D9BC8B"
+			tasks: [{
+				id: "45A5C22E8C4262C2"
+				item: { count: 1, id: "createaddition:barbed_wire" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["599D13CBCAC60786"]
+			id: "76A6798E76AEAC6C"
+			tasks: [{
+				id: "4D3656B007758334"
+				item: { count: 1, id: "createaddition:rolling_mill" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76A6798E76AEAC6C"]
+			id: "74CFCE6D6F080005"
+			tasks: [{
+				id: "3933166AAB8FD075"
+				item: { count: 1, id: "createaddition:straw" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2AA02BBB7CB49C83"]
+			id: "0C4413145DA7DA31"
+			size: 2.0d
+			tasks: [{
+				id: "1F6FCE9AB6AEAE6A"
+				item: { count: 1, id: "createaddition:bioethanol_bucket" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["745F85E3EC5486DB"]
+			id: "2AA02BBB7CB49C83"
+			tasks: [{
+				id: "2F09F13C59F221B9"
+				item: { count: 1, id: "createaddition:seed_oil_bucket" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["74CFCE6D6F080005"]
+			id: "745F85E3EC5486DB"
+			tasks: [{
+				id: "6F04D295A5A117E7"
+				item: { count: 1, id: "createaddition:biomass" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F0E7028C87D4175"]
+			icon: {
+				id: "createaddition:modular_accumulator"
+			}
+			id: "58C7FDD4D39CB3CE"
+			tasks: [
+				{
+					id: "3AC4C5912310BBB7"
+					item: { count: 1, id: "createaddition:modular_accumulator" }
+					type: "item"
+				}
+				{
+					id: "50740FBB56C572A9"
+					item: { count: 1, id: "createaddition:capacitor" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76DD2083CBA1B936"]
+			id: "0E296820B5B6A3E8"
+			tasks: [{
+				id: "12F0FED26FE3AAD3"
+				item: { count: 1, id: "createaddition:electrum_ingot" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+	]
+}

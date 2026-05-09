@@ -1,0 +1,204 @@
+{
+	autofocus_id: "038A223866CA7830"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quirks"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "quark:textures/attribute/unknown.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "5E33BF82D07A40F7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "sleep_tight:night_bag"
+			}
+			id: "038A223866CA7830"
+			tasks: [
+				{
+					id: "063F954D332DB9DB"
+					item: { count: 1, id: "sleep_tight:night_bag" }
+					type: "item"
+				}
+				{
+					id: "31BACEB0480C21AD"
+					item: { count: 1, id: "sleep_tight:dreamer_essence" }
+					type: "item"
+				}
+				{
+					id: "0B32D3006D4B5F04"
+					item: { count: 1, id: "sleep_tight:hammock_white" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "5DE9DF4B6AF6FACA"
+			rewards: [{
+				id: "6BB4807533F34DED"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E626CDD369F2DB6"
+				item: { count: 1, id: "barteringstation:bartering_station" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "0391B618EF0EA67A"
+			rewards: [{
+				id: "123A6EF21214499D"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10BBD6BFE094D38E"
+				item: { count: 1, id: "tradingpost:trading_post" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "4EA4CD46CF092947"
+			tasks: [{
+				id: "11CB8C1E72F4BE2B"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "770ED6A170EE614C"
+			tasks: [{
+				id: "36A221E600B033B8"
+				item: { count: 1, id: "minecraft:armor_stand" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "4FF7CAD7EF657AB2"
+			tasks: [{
+				id: "6E96BD6AB3BE534D"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "minecraft:chipped_anvil"
+			}
+			id: "28BB4626A29C8113"
+			tasks: [
+				{
+					id: "45EAB09852C2D82E"
+					item: { count: 1, id: "minecraft:anvil" }
+					type: "item"
+				}
+				{
+					id: "368D0992DF5635CC"
+					item: { count: 1, id: "minecraft:name_tag" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "63E6879C4C1BF832"
+			tasks: [{
+				id: "0EEDE7D0869BD803"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:horse"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "53FDDB39F334E07F"
+			tasks: [
+				{
+					id: "35B87050C1028313"
+					item: { count: 1, id: "minecraft:saddle" }
+					type: "item"
+				}
+				{
+					id: "2A3C58732A82A785"
+					item: { count: 1, id: "minecraft:lead" }
+					type: "item"
+				}
+				{
+					id: "1F64C0EA5FC87172"
+					item: { components: { "minecraft:instrument": "minecraft:ponder_goat_horn" }, count: 1, id: "horseman:copper_horn" }
+					type: "item"
+				}
+				{
+					id: "1E41A3C67286F54C"
+					item: { count: 1, id: "minecraft:oak_fence" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "456D89A6762AD33B"
+					item: { count: 1, id: "farmersdelight:horse_feed" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "4CDD7CFE3442456B"
+			tasks: [{
+				id: "3C98B0A2C5ED0D22"
+				item: { count: 1, id: "sawmill:sawmill" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			id: "3FD67BAE7085831B"
+			tasks: [{
+				id: "3CF8C115DC641FED"
+				item: { count: 1, id: "trashcans:item_trash_can" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+	]
+}
