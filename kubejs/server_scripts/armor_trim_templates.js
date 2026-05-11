@@ -3,9 +3,9 @@ ServerEvents.recipes(event => {
   // ANGLER -> TIDE
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:tide_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:tide_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:angler_pottery_sherd',
     [
@@ -21,9 +21,9 @@ ServerEvents.recipes(event => {
   // ARCHER -> WAYFINDER
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:wayfinder_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:wayfinder_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:archer_pottery_sherd',
     [
@@ -39,9 +39,9 @@ ServerEvents.recipes(event => {
   // BLADE -> BOLT
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:bolt_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:bolt_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:blade_pottery_sherd',
     [
@@ -57,9 +57,9 @@ ServerEvents.recipes(event => {
   // BREWER -> SHAPER
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:shaper_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:shaper_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:brewer_pottery_sherd',
     [
@@ -75,9 +75,9 @@ ServerEvents.recipes(event => {
   // BURN -> BLAST
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('supplementaries:blast_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('supplementaries:blast_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:burn_pottery_sherd',
     [
@@ -93,9 +93,9 @@ ServerEvents.recipes(event => {
   // DANGER -> SENTRY
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:sentry_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:sentry_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:danger_pottery_sherd',
     [
@@ -111,9 +111,9 @@ ServerEvents.recipes(event => {
   // FLOW -> FLOW
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:flow_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:flow_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:flow_pottery_sherd',
     [
@@ -129,9 +129,9 @@ ServerEvents.recipes(event => {
   // EXPLORER -> WILD
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:wild_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:wild_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:explorer_pottery_sherd',
     [
@@ -147,9 +147,9 @@ ServerEvents.recipes(event => {
   // FRIEND -> HOST
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:host_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:host_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:friend_pottery_sherd',
     [
@@ -165,9 +165,9 @@ ServerEvents.recipes(event => {
   // GUSTER -> VEX
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:vex_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:vex_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:guster_pottery_sherd',
     [
@@ -183,9 +183,9 @@ ServerEvents.recipes(event => {
   // HEART -> WARD
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:ward_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:ward_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:heart_pottery_sherd',
     [
@@ -201,9 +201,9 @@ ServerEvents.recipes(event => {
   // HOWL -> SNOUT
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:snout_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:snout_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:howl_pottery_sherd',
     [
@@ -219,9 +219,9 @@ ServerEvents.recipes(event => {
   // MINER -> RAISER
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:raiser_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:raiser_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:miner_pottery_sherd',
     [
@@ -237,9 +237,9 @@ ServerEvents.recipes(event => {
   // MOURNER -> RIB
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:rib_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:rib_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:mourner_pottery_sherd',
     [
@@ -255,9 +255,9 @@ ServerEvents.recipes(event => {
   // PLENTY -> COAST
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:coast_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:coast_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:plenty_pottery_sherd',
     [
@@ -273,9 +273,9 @@ ServerEvents.recipes(event => {
   // PRIZE -> EYE
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:eye_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:eye_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:prize_pottery_sherd',
     [
@@ -291,9 +291,9 @@ ServerEvents.recipes(event => {
   // SHELTER -> SILENCE
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:silence_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:silence_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:shelter_pottery_sherd',
     [
@@ -309,9 +309,9 @@ ServerEvents.recipes(event => {
   // SKULL -> SPIRE
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:spire_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:spire_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:skull_pottery_sherd',
     [
@@ -327,9 +327,9 @@ ServerEvents.recipes(event => {
   // SNORT -> DUNE
   event.recipes.create.sequenced_assembly(
     [
-      CreateItem.of('minecraft:dune_armor_trim_smithing_template', 90),
-      CreateItem.of('minecraft:brick', 5),
-      CreateItem.of('minecraft:clay_ball', 5)
+      CreateItem.of('minecraft:dune_armor_trim_smithing_template', 0.90),
+      CreateItem.of('minecraft:brick', 0.05),
+      CreateItem.of('minecraft:clay_ball', 0.05)
     ],
     'minecraft:snort_pottery_sherd',
     [
