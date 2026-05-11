@@ -404,14 +404,6 @@
     "curseForgeHash": 2901045699,
     "modrinthHash": "e50ae4f50173b12232b8dbd6b85568b4b657c0cf"
   },
-  "createfisheryindustry-5.0.1.jar": {
-    "jarName": "createfisheryindustry-5.0.1.jar",
-    "modId": "createfisheryindustry",
-    "name": "Create: Fishery Industry",
-    "version": "5.0.1",
-    "curseForgeHash": 3319476114,
-    "modrinthHash": "2a46fa91a0e979a6750077395a29047177be8e70"
-  },
   "createsa_tank_fix-1.3.jar": {
     "jarName": "createsa_tank_fix-1.3.jar",
     "modId": "createsa_tank_fix",
@@ -707,30 +699,6 @@
     "version": "3.1.0",
     "curseForgeHash": 4050254416,
     "modrinthHash": "75d6c7af62393f9d8db451188724614cc042d3fb"
-  },
-  "ftb-library-neoforge-2101.1.31.jar": {
-    "jarName": "ftb-library-neoforge-2101.1.31.jar",
-    "modId": "ftblibrary",
-    "name": "FTB Library",
-    "version": "2101.1.31",
-    "curseForgeHash": 2049429281,
-    "modrinthHash": "686d4e784c28c14f7760cc22b2de6a8573b56b74"
-  },
-  "ftb-quests-neoforge-2101.1.23.jar": {
-    "jarName": "ftb-quests-neoforge-2101.1.23.jar",
-    "modId": "ftbquests",
-    "name": "FTB Quests",
-    "version": "2101.1.23",
-    "curseForgeHash": 1228057399,
-    "modrinthHash": "49ead4db72ab59c129021f0f0b532263650f819e"
-  },
-  "ftb-teams-neoforge-2101.1.9.jar": {
-    "jarName": "ftb-teams-neoforge-2101.1.9.jar",
-    "modId": "ftbteams",
-    "name": "FTB Teams",
-    "version": "2101.1.9",
-    "curseForgeHash": 2109677839,
-    "modrinthHash": "328e04bf1a445870aacea8fe7637670f84272a8f"
   },
   "fzzy_config-0.7.6+1.21+neoforge.jar": {
     "jarName": "fzzy_config-0.7.6+1.21+neoforge.jar",

@@ -112,6 +112,30 @@ ServerEvents.recipes(event => {
     event.remove({ output: "farmersdelight:netherite_knife" })
     event.remove({ output: "companions:netherite_dagger" })
     event.remove({ output: "create_sa:steam_engine" })
+    event.remove({ output: "knightlib:empty_grail" })
+
+    event.shapeless(("minecraft:potion[potion_contents={potion:"minecraft:water"},thirst:purity=0]"), [
+        " B ",
+        "BWB",
+        " B "
+    ], {
+        
+        W: "minecraft:water_bucket",
+        B: "minecraft:glass_bottle"
+
+    })
+
+    event.shaped("knightlib:empty_grail", [
+        "C C",
+        " C ",
+        " C "
+    ], {
+        
+        C: "minecraft:copper_ingot"
+
+    })
+
+    
 
     event.recipes.create.sequenced_assembly(
     [
