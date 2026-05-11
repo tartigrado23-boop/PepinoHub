@@ -51,6 +51,7 @@ StartupEvents.registry('item', event => {
       event.create('kubejs:energized_glow_dust').displayName('Energized Glow Dust')
       event.create('kubejs:reinforced_diamond').displayName('Reinforced Diamond')
             .glow(true)
+      event.create('kubejs:drill_head').displayName('Drill Head')
 
       event.create('kubejs:brittle_diamond_pickaxe', 'pickaxe').displayName('Brittle Diamond Pickaxe')
             .tier('diamond')   

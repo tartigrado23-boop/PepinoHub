@@ -2,7 +2,7 @@ ItemEvents.modification(event => {
 
 event.modify('minecraft:chainmail_helmet', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(130)
     
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
             
@@ -22,7 +22,7 @@ event.modify('minecraft:chainmail_helmet', item => {
 
 event.modify('minecraft:chainmail_chestplate', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(150)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
             
@@ -41,7 +41,7 @@ event.modify('minecraft:chainmail_chestplate', item => {
 
 event.modify('minecraft:chainmail_leggings', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(140)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -61,7 +61,7 @@ event.modify('minecraft:chainmail_leggings', item => {
 
 event.modify('minecraft:chainmail_boots', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(120)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
                         
@@ -81,7 +81,7 @@ event.modify('minecraft:chainmail_boots', item => {
 
 event.modify('create_sa:copper_helmet', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(130)
     
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -101,7 +101,7 @@ event.modify('create_sa:copper_helmet', item => {
 
 event.modify('create_sa:copper_chestplate', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(150)
     
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
                         
@@ -123,7 +123,7 @@ event.modify('create_sa:copper_chestplate', item => {
 
 event.modify('create_sa:copper_leggings', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(140)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -143,7 +143,7 @@ event.modify('create_sa:copper_leggings', item => {
 
 event.modify('create_sa:copper_boots', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(120)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -164,7 +164,7 @@ event.modify('create_sa:copper_boots', item => {
 
 event.modify('minecraft:iron_helmet', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(250)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -193,7 +193,7 @@ event.modify('minecraft:iron_helmet', item => {
 
 event.modify('minecraft:iron_chestplate', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(300)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -232,7 +232,7 @@ event.modify('minecraft:iron_chestplate', item => {
 
 event.modify('minecraft:iron_leggings', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(265)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
             
@@ -271,7 +271,7 @@ event.modify('minecraft:iron_leggings', item => {
 
 event.modify('minecraft:iron_boots', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(235)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
                         
@@ -300,7 +300,7 @@ event.modify('minecraft:iron_boots', item => {
 
 event.modify('minecraft:golden_helmet', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(180)
     
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
             
@@ -330,7 +330,7 @@ event.modify('minecraft:golden_helmet', item => {
 
 event.modify('minecraft:golden_chestplate', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(220)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
             
@@ -370,7 +370,7 @@ event.modify('minecraft:golden_chestplate', item => {
 
 event.modify('minecraft:golden_leggings', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(200)
     
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -400,7 +400,7 @@ event.modify('minecraft:golden_leggings', item => {
 
 event.modify('minecraft:golden_boots', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(140)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -470,7 +470,7 @@ event.modify('minecraft:golden_boots', item => {
 
 event.modify('create_sa:brass_helmet', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(430)
     
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -510,7 +510,7 @@ event.modify('create_sa:brass_helmet', item => {
 
 event.modify('create_sa:brass_chestplate', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(530)
     
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -550,7 +550,7 @@ event.modify('create_sa:brass_chestplate', item => {
 
 event.modify('create_sa:brass_leggings', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(500)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -589,7 +589,7 @@ event.modify('create_sa:brass_leggings', item => {
 
 event.modify('create_sa:brass_boots', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(360)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -629,7 +629,7 @@ event.modify('create_sa:brass_boots', item => {
 
 event.modify('minecraft:diamond_helmet', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(860)
     
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -661,7 +661,7 @@ event.modify('minecraft:diamond_helmet', item => {
 
 event.modify('minecraft:diamond_chestplate', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(1040)
     
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -691,7 +691,7 @@ event.modify('minecraft:diamond_chestplate', item => {
 
 event.modify('minecraft:diamond_leggings', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(990)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -721,7 +721,7 @@ event.modify('minecraft:diamond_leggings', item => {
 
 event.modify('minecraft:diamond_boots', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(720)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -751,7 +751,7 @@ event.modify('minecraft:diamond_boots', item => {
 
 event.modify('minecraft:netherite_helmet', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(960)
     
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -791,7 +791,7 @@ event.modify('minecraft:netherite_helmet', item => {
 
 event.modify('minecraft:netherite_chestplate', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(1200)
     
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -821,7 +821,7 @@ event.modify('minecraft:netherite_chestplate', item => {
 
 event.modify('minecraft:netherite_leggings', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(1100)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -861,7 +861,7 @@ event.modify('minecraft:netherite_leggings', item => {
 
 event.modify('minecraft:netherite_boots', item => {
 
-        item.setMaxDamage(69)
+        item.setMaxDamage(800)
 
         let modifiedAttributeModifier = Item.of(item.item().id).attributeModifiers
 
@@ -946,5 +946,6 @@ event.modify('create_sa:netherite_jetpack_chestplate', item => {
         item.setAttributeModifiersWithTooltip(modifiedAttributeModifier.modifiers())
     })
 
+    
 
 })

@@ -31,11 +31,8 @@ ItemEvents.modifyTooltips(event => {
     event.add('minecraft:sniffer_egg', '§6Find this ancient egg in Warm Ocean underwater Ruins.')
     event.add('createaddition:straw', '§6A Blaze burner with a straw is able to intake fluids.')
     event.add('#minecraft:bundles', '§cEmpty your bundle before upgrading it.')
-    event.add('kubejs:create_guide', '§6Right click to see ponders.')
-    event.add('solcarrot:food_book', '§6Right click to check your food journey.')
-    event.add('minecraft:copper_ingot', '§6A softer metal, capable of being made into early tools and armors.')
-    event.add('minecraft:iron_ingot', '§6A harder metal, useful in many recipes and medium grade gear.')
-    event.add('minecraft:gold_ingot', '§6A Rare metal said to bring luck and fortune to those to wield its tools.')
+    event.add('kubejs:create_guide', '§6Interact to see ponders.')
+    event.add('solcarrot:food_book', '§6Interact to check your food journey.')
     event.add('dungeonsdelight:wormouth', '§6It looks hungry.')
 
 

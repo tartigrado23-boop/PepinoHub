@@ -2,7 +2,7 @@
     "include": [
         "./**/*.js",
         "./**/*.ts"
-, "Item_mods.js.disable", "armor_mods.js"    ],
+, "Item_mods.js", "armor_mods.js"    ],
     "compilerOptions": {
         "module": "none",
         "moduleResolution": "node",
