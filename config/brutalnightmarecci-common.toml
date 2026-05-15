@@ -11,7 +11,7 @@ dc_nervous = false
 #All hostile mobs have a chance to dash forward if the target's too far
 dashforward = false
 #All hostile mobs can follow and detect players from far distance & move faster
-hardattrb = true
+hardattrb = false
 #Passive mobs like Cows, Chickens, Sheep or etc... will fight back when player killed one of them
 psive_fb = false
 #Skeleton can fire an arrow from the sky into its target (Cooldown)
@@ -27,13 +27,13 @@ pl_smai = true
 #Block placed by Zombie & Husk will disappear after a while
 zb_dbs = true
 #Zombie & Husk can place block - pillar up to follow its target
-zb_pblock = true
+zb_pblock = false
 #Zombie & Husk can break block if needed to follow its target
 zb_bblock = false
 #All zombies can break block.If disabled, only Zombies holding axe or pickaxe can break block.
 zb_allbreaker = false
 #Zombie & Husk has a new ability, which can make zombie use ender pearl, flint & steel, etc...
-zb_newabi = true
+zb_newabi = false
 #Zombie & Husk can throw tnt
 zb_ttnt = false
 #Prevent zombie from burning in sunlight
@@ -59,7 +59,7 @@ em_invis = true
 #Enderman can teleport its target (Cooldown)
 em_caskill = false
 #Wither Skeleton can slow its nearby target
-ws_caskill = true
+ws_caskill = false
 #Drowned can pull its target backward (Cooldown)
 dr_caskill = true
 #Drowned can curse its target (Random - Long cooldown)
@@ -103,7 +103,7 @@ ptom_carry = false
 #Fire Phantom will summon normally
 ptom_rsum = false
 #Phantom can become transparent
-ptom_invis = false
+ptom_invis = true
 #Ghast can shoot multiple fireball
 gh_smul = true
 #Illusioner can randomly spawn

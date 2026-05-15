@@ -13,6 +13,14 @@
     "curseForgeHash": 1011025771,
     "modrinthHash": "41fdc29ac6a073c05e434b64f274270ccc322c95"
   },
+  "aeroworks-1.2.9.jar": {
+    "jarName": "aeroworks-1.2.9.jar",
+    "modId": "aeroworks",
+    "name": "Create: Aeroworks",
+    "version": "1.2.9",
+    "curseForgeHash": 2157261201,
+    "modrinthHash": "f6f48e509202dca5443904ae077ade67e7f89d70"
+  },
   "almostunified-neoforge-1.21.1-1.4.1.jar": {
     "jarName": "almostunified-neoforge-1.21.1-1.4.1.jar",
     "modId": "almostunified",
@@ -108,6 +116,14 @@
     "version": "1.9.0",
     "curseForgeHash": 1612804075,
     "modrinthHash": "e91af996b413bb498e276bf410d0deff52a34a74"
+  },
+  "BetterTridents-v21.1.0-1.21.1-NeoForge.jar": {
+    "jarName": "BetterTridents-v21.1.0-1.21.1-NeoForge.jar",
+    "modId": "bettertridents",
+    "name": "Better Tridents",
+    "version": "21.1.0",
+    "curseForgeHash": 572311811,
+    "modrinthHash": "0f0903bf03f2dda02bf4c12f96c2bd52acb492c7"
   },
   "bigcontraptions-neoforge-1.0.jar": {
     "jarName": "bigcontraptions-neoforge-1.0.jar",
@@ -269,13 +285,21 @@
     "curseForgeHash": 2062852877,
     "modrinthHash": "821d83bb4414e93721563e9ed7670976bc2afab1"
   },
-  "cosmeticarmorreworkedforked-neoforge-1.21.1-0.0.4.jar": {
-    "jarName": "cosmeticarmorreworkedforked-neoforge-1.21.1-0.0.4.jar",
-    "modId": "cosmeticarmorreworkedforked",
-    "name": "CosmeticArmorReworkedForked",
-    "version": "1.21.1-0.0.4",
-    "curseForgeHash": 2767313613,
-    "modrinthHash": "4f090e6cd4e43d003b1b0518f8f8d6ee30f3363a"
+  "cosmeticarmorreworked-1.21.1-v1-neoforge.jar": {
+    "jarName": "cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+    "modId": "cosmeticarmorreworked",
+    "name": "CosmeticArmorReworked",
+    "version": "1.21.1-v1-neoforge",
+    "curseForgeHash": 499008780,
+    "modrinthHash": "5f1e699cd0888b857ec63f01adaeb3571848bfea"
+  },
+  "cosmeticcorpsecompat-1.21.1-NeoForge-4.0.1.jar": {
+    "jarName": "cosmeticcorpsecompat-1.21.1-NeoForge-4.0.1.jar",
+    "modId": "cosmeticcorpsecompat",
+    "name": "Cosmetic Armor x Corpse Compat",
+    "version": "4.0.1",
+    "curseForgeHash": 740982244,
+    "modrinthHash": "6cbec8cac431daaa347a8ac898d2a05dd66bea5a"
   },
   "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.8.jar": {
     "jarName": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.8.jar",
@@ -452,13 +476,13 @@
     "curseForgeHash": 286186689,
     "modrinthHash": "6ff962a9c2e9cc9abdc6de0b01f834839ce7fed1"
   },
-  "displaydelight-1.4.0.jar": {
-    "jarName": "displaydelight-1.4.0.jar",
+  "displaydelight-1.6.0.jar": {
+    "jarName": "displaydelight-1.6.0.jar",
     "modId": "displaydelight",
     "name": "Display Delight",
-    "version": "1.4.0",
-    "curseForgeHash": 3278343365,
-    "modrinthHash": "2802211859cf6c4985913563b2165414ce0d6bbb"
+    "version": "1.6.0",
+    "curseForgeHash": 3119143294,
+    "modrinthHash": "a53384fc7e66b1ed25f34fe8b168ba8174b69b2f"
   },
   "distraction_free_recipes-neoforge-1.2.1-1.21.1.jar": {
     "jarName": "distraction_free_recipes-neoforge-1.2.1-1.21.1.jar",
@@ -467,6 +491,14 @@
     "version": "1.2.1",
     "curseForgeHash": 1644706864,
     "modrinthHash": "ece9588b8c0f1825bac33c915378af761b6101ae"
+  },
+  "durabilitytooltip-1.1.6-neoforge-mc1.21.jar": {
+    "jarName": "durabilitytooltip-1.1.6-neoforge-mc1.21.jar",
+    "modId": "durabilitytooltip",
+    "name": "Durability Tooltip",
+    "version": "1.1.6",
+    "curseForgeHash": 953768137,
+    "modrinthHash": "59a567402d894b46d6abe45831f39dcad5c93342"
   },
   "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar": {
     "jarName": "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
@@ -660,13 +692,13 @@
     "curseForgeHash": 4015780535,
     "modrinthHash": "76cb5746d6e93af2c74a06251100aad27363637f"
   },
-  "FarmersDelight-1.21.1-1.2.11.jar": {
-    "jarName": "FarmersDelight-1.21.1-1.2.11.jar",
+  "FarmersDelight-1.21.1-1.2.11a.jar": {
+    "jarName": "FarmersDelight-1.21.1-1.2.11a.jar",
     "modId": "farmersdelight",
     "name": "Farmer\u0027s Delight",
-    "version": "1.2.11",
-    "curseForgeHash": 1532443055,
-    "modrinthHash": "2415b91d6437977e676985b4a2ef877208d202e1"
+    "version": "1.2.11a",
+    "curseForgeHash": 3029575844,
+    "modrinthHash": "a63092cb1e9cd1fb40a9bf1e9a5042d241eddb21"
   },
   "fastboot-1.21.x-v1.3neo.jar": {
     "jarName": "fastboot-1.21.x-v1.3neo.jar",
@@ -764,6 +796,14 @@
     "curseForgeHash": 3220009028,
     "modrinthHash": "a558777ef4510da2f4d32ca3da6ac7384c9a9940"
   },
+  "inventoryessentials-neoforge-1.21.1-21.1.15.jar": {
+    "jarName": "inventoryessentials-neoforge-1.21.1-21.1.15.jar",
+    "modId": "inventoryessentials",
+    "name": "Inventory Essentials",
+    "version": "21.1.15",
+    "curseForgeHash": 2771708253,
+    "modrinthHash": "e50a7149975daa55070003765121c094b4090e69"
+  },
   "inventoryhud.neoforged.1.21.1-3.4.28.jar": {
     "jarName": "inventoryhud.neoforged.1.21.1-3.4.28.jar",
     "modId": "inventoryhud",
@@ -771,6 +811,14 @@
     "version": "3.4.28",
     "curseForgeHash": 507699904,
     "modrinthHash": "1bfd8bbb862a8cf55fd83947ded2b0eeda8c6bc8"
+  },
+  "iris-neoforge-1.8.12+mc1.21.1.jar": {
+    "jarName": "iris-neoforge-1.8.12+mc1.21.1.jar",
+    "modId": "iris",
+    "name": "Iris",
+    "version": "1.8.12-snapshot+mc1.21.1-local",
+    "curseForgeHash": 2055048874,
+    "modrinthHash": "a3e6355915c7d3b2bc392724795113e51d289378"
   },
   "Jade-1.21.1-NeoForge-15.10.5.jar": {
     "jarName": "Jade-1.21.1-NeoForge-15.10.5.jar",
@@ -803,6 +851,14 @@
     "version": "1.6.2",
     "curseForgeHash": 1046435211,
     "modrinthHash": "4f47678f57e2cadebd42484897bf5417d7fa344a"
+  },
+  "Kiwi-1.21.1-NeoForge-15.8.3.jar": {
+    "jarName": "Kiwi-1.21.1-NeoForge-15.8.3.jar",
+    "modId": "kiwi",
+    "name": "Kiwi Library",
+    "version": "15.8.3+neoforge",
+    "curseForgeHash": 87612617,
+    "modrinthHash": "042592fb37494fb566ae43881fc3aeecd4880f50"
   },
   "knightlib-neoforge-1.21.1-1.3.0.jar": {
     "jarName": "knightlib-neoforge-1.21.1-1.3.0.jar",
@@ -1056,6 +1112,14 @@
     "version": "0.12.15.5-beta.1+1.21",
     "curseForgeHash": 990455198,
     "modrinthHash": "48dda11a6710591cf162bdbedf982ea21dd1f2ed"
+  },
+  "PassableFoliage-1.21.1-NeoForge-9.1.3.jar": {
+    "jarName": "PassableFoliage-1.21.1-NeoForge-9.1.3.jar",
+    "modId": "passablefoliage",
+    "name": "Passable Foliage",
+    "version": "9.1.3+neoforge",
+    "curseForgeHash": 319815669,
+    "modrinthHash": "6613ed3f1bfa2f5d1d46d7d52f7444d7f9314d12"
   },
   "personality-1.21.1-5.0.1.jar": {
     "jarName": "personality-1.21.1-5.0.1.jar",

@@ -63,6 +63,43 @@
     "c:foods/tentacles_on_a_stick":[
       "oceansdelight:baked_tentacle_on_a_stick",
       "minersdelight:tentacles_on_a_stick"
+    ],
+
+    "c:foods/raw_shulker":[
+      "endersdelight:shulker_mollusk",
+      "ends_delight:shulker_meat"
+    ],
+
+    "c:foods/cut_raw_shulker":[
+      "endersdelight:shulker_filet",
+      "ends_delight:shulker_meat_slice"
+    ],
+  
+    "c:foods/enderman_bits":[
+      "endersdelight:enderman_sight",
+      "ends_delight:enderman_gristle"
+    ],
+
+    "c:ender_pearl_bits":[
+      "endersdelight:ender_shard",
+      "ends_delight:ender_pearl_grain"
+
+    ],
+
+    "c:foods/raw_endermite_meat":[
+      "endersdelight:mite_crust",
+      "ends_delight:raw_ender_mite_meat",
+      "ends_delight:dried_endermite_meat"
+    ],
+
+    "c:storage_blocks/chorus_fruit": [
+      "ends_delight:chorus_fruit_crate"
+
+    ],
+
+    "c:mushrooms":[
+      "minecraft:crimson_fungus",
+      "minecraft:warped_fungus"
     ]
 
   },

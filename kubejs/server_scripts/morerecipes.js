@@ -113,6 +113,17 @@ ServerEvents.recipes(event => {
     event.remove({ output: "companions:netherite_dagger" })
     event.remove({ output: "create_sa:steam_engine" })
     event.remove({ output: "knightlib:empty_grail" })
+    event.remove({ id: "endersdelight:cutting/ender_shard" })
+    event.remove({ id: "ends_delight:food_smoking/dried_endermite_meat" })
+    event.remove({ id: "ends_delight:food_smelting/dried_endermite_meat" })
+    event.remove({ id: "ends_delight:food_campfire_cooking/dried_endermite_meat_campfire" })
+    event.remove({ output: "ends_delight:end_stove" })
+    event.remove({ output: "ends_delight:dragon_tooth_knife" })
+    event.remove({ output: "ends_delight:end_stone_knife" })
+    event.remove({ output: "ends_delight:purpur_knife" })
+    event.remove({ output: "ends_delight:dragon_egg_shell_knife" })
+    event.remove({ output: "ends_delight:end_stove" }) 
+
 
     event.shaped("knightlib:empty_grail", [
         "C C",

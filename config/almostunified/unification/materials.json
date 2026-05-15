@@ -6,12 +6,16 @@
     "minersdelight",
     "culturaldelights",
     "corn_delights",
-    "oceansdelight"
+    "oceansdelight",
+    "endersdelight",
+    "ends_delight"
   ],
   
   "priority_overrides": {
     "c:foods/raw_tentacles": "culturaldelights",
-    "c:foods/cooked_tentacles": "culturaldelights"
+    "c:foods/cooked_tentacles": "culturaldelights",
+    "c:ender_pearl_bits": "ends_delight",
+    "c:storage_blocks/chorus_fruit": "endersdelight"
   },
 
 
@@ -37,7 +41,13 @@
     "c:doughs/wheat",
     "c:foods/raw_tentacles",
     "c:foods/cooked_tentacles",
-    "c:foods/tentacles_on_a_stick"
+    "c:foods/tentacles_on_a_stick",
+    "c:foods/raw_shulker",
+    "c:foods/cut_raw_shulker",
+    "c:foods/enderman_bits",
+    "c:ender_pearl_bits",
+    "c:foods/raw_endermite_meat",
+    "c:storage_blocks/chorus_fruit"
 
   ],
   "ignored_tags": [],
